@@ -1,0 +1,1207 @@
+What are you working on, /g/?
+Old thread: 
+I'm rewriting my latency and bandwidth benchmark program to support more fine-grained queue control. My proof of concept with hosting I/O queues on remote GPUs worked, so I'm going to run some benchmarks in a PCIe cluster after I'm done with the rewrite.
+https://github.com/enfiskutensykkel
+a chess game
+When will ADA finally have a stable version that can be used in production for web development?
+you forgot reduction
+how do I capture the /sci/ part in the string below, while still matching the whole thing, whether /sci/ is present or not?
+With /sci/ potentially being any board
+I can match the whole thing, but so far could not figure out how to get the capture group working in this case
+I can remove the '?' after the capture group so it always looks for that part, but then it would no longer match non-crossboard deadlinks
+I'm looking to get into programming but I have no idea what kind of project/problem I want to solve. Any cool things for beginners to do?
+Looking into Python2 multiprocessing;
+Can i spawn as many Process(es) as i want and Linux handles it for me, or am i actually limited by cores/hyperthreads?
+search for that roll number challenge thread, should have enough project for you to do
+Pretty sure that there's a limit to the amount of processes that the kernel can manage.
+cat /proc/sys/kernel/pid_max
+If you want to be anal about it then I also didn't specify an evaluation order.
+Thanks mate, given that it actually starts to utilize all my cores, i was thinking of limits of 4 / 8 maybe 16. Thanks anyway.
+Evaluation order isn't that important unless you want confluence
+How do I find a company to sell my high performance fizzbuzz to?
+depends if the date is a multiple of 3 or 5
+well I guess I can make it work by just being more specific
+or is there a better way?
+And reductions aren't important unless you want to manipulate your terms in any meaningful way. Your point being?
+Old fella is unironically right
+The questions is: s == &s[0]?
+Beta reduction is critically important for understanding the lambda calculus, especially since you brought it up as understanding programming.
+yes
+This is legit. Is this for work, hobby, or an academic project?
+Finally decided to read SICP, I'm really enjoying the emphasis on math.
+&s[0] is &(*(s + 0)), &*e == e, and (e + 0) == e, thus &s[0] == s
+offensive programming
+writing tests for ecommerce api at my job.
+doing nothing personally.
+A good resource for downloading IT books? I managed to find the 'Introductory XUL' I had been looking for, but it's the 5th edition, whereas the book is on its 7th already. Not exactly a big issue, but still.
+I recommend buying them on /t/.
+Actually you can just google the title and there will be a pdf on the first page.
+1) read a tutorial book to learn basic syntax and solve some /g/ level problems
+2) pick a coding problem website similar to your interest hackthebox/codwars/projecteuler
+3) once you've done enough shit tier problems and understand the kind of things you can accomplish solve your own and everybody else's problems for money
+Thanks anon. Is Automate the Boring Stuff a good tutorial to start with?
+I finished a timezone converter (from JST to your browser timezone) for myanimelist. "I made" is kind of.. I imported moment.js and wrote a bunch of js shit to convert the timezones
+Getting a weird error when trying to rename columns of a dataframe in Python:
+how do I cycle through 2 Sets at once in java? I want to print the elements of the same index together
+What causes it?
+How do I into SQL?
+First you need an SQL.
+Then you take it, and you into yourself there.
+Slowly, otherwise there will be bruises.
+Will I need a helmet?
+Tic Tac Toe game with C++/SDL2 and webdev shit
+I have no clue what to make for my portfolio and I'm scared I won't get an internship for Summer 2019.
+Finalizing my Haskell program.
+are you removing any potentially useful features
+remember to use unsafePerformIO
+It has not features. You feed it some URLs and it starts downloading stuff. That's it.
+I'm fixing warnings from GHC -Wall and reducing code duplication.
+I already use that on my tests.
+soooo you made curl?
+Importing all of moment.js' bloat just for simple timezone conversion? Look at how they do it, copy what you need, give credit. Don't pollute the web.
+No, an RSS feed downloader.
+God damn I'm really stupid, but I'm trying to figure out Groovy and I have a question.
+If I've written a class and have it saved in a separate file:
+MyCoolClassWow.groovy
+How do I import that class into another .groovy script in the same directory? I tried doing it the python way:
+mainScript.groovy
+...but that gives me the "Unable to resolve class MyCoolClassWow" so obviously I'm not doing this correctly.
+Do I just eval("myCoolClassWow.groovy") and do it that way? That works, but seems like the pajeet way of doing it.
+This is what python does to your mind.
+considering doing something with purescript
+y/n? has to compile into js anyways and it seems good for my task... any experiences?
+What's wrong with Python?
+So you don't know either, huh?
+Python:
+How can I turn a list that looks like this:
+into a dictionary?
+Anyone ever considered data science work with the CIA or NSA? Seems like a good option after graduation where dmI dont have to move to Commiefornia or compete with an army of poos who work for minimum wage.
+java books you can recommend? (and java/android dev one for further reading)
+TRIGGERED
+Typically you wouldn't use a dictionary with keys that are numbers.
+If you need to maintain the order, use a Tuple:
+Hey guys, newfag here using Treehouse to help me.
+Why isn't my 'if' statement working?
+I should get a message saying I can't access the program since I've set the age below 13
+should I use C or C++ for my games?
+What's 'consoleprintf'? Shouldn't it be 'console.printf'?
+I'm not familiar with treehouse but maybe you need console.printf
+Do you need to save your changes/recompile before running in that program? I think you'll also discover an error with "consoleprintf" when you do, as 
+ 
+ point out.
+C++ is more forgiving for gamedev.
+Missed that mistake, but I fixed it and it still doesn't run the loop
+C is going to be a little harder until you get used to it, but better in the long run for performance.
+Make sure you're recompiling the program before running it again.
+you're missing a ) on the penultimate line
+man I have nothing against python in general but the oop syntax is the worst
+Yeah, I feel dumb
+Deleting my post and committing sudoku now
+It's easy to let go of yourself and use non-performant shit with C++, so use C.
+python sucks anyway so being bad at it is a virtue
+Also of note:
+1) You don't need to use str() on getWeight. print() will do just fine without it
+2) By convention, class names are capitalized
+3) Instead of getWeight, etc. consider either just letting people access self.weight directly or use the @property decorator. See https://www.programiz.com/python-pr
+nothing stopping you from rewriting performance critical parts in a more efficient manner m8.
+studying anime to prepare myself for a haskell interview
+this 
+ + haskell
+Make sure you eat plenty of burritos.
+What is so great about Haskell? I'm not b8ing or memeing, I don't know much about it and I'm curious.
+Find a good framework or engine.
+Godot's good.
+bro you're gonna hate yourself. when don't use the parenthesis when defining your main function
+Otherwise it looks like it should be good.
+Also FUCK THESE FUCKING CAPTCHAS GOD DAMN
+anime
+text encryption algos....
+i'm bored, don't judge me
+I am building a remote for my remote outlets. Though i have to rewrite most of it myself, because all available stuff is for arduino, which is too bloated for a attiny13.
+On/off works. Now i just need to add 3 buttons and an on/off switch
+please make kode review (pls only leave good comments on comporate wiki. thanks) ^_^
+Redpill me on programming.
+Trying to work out how I would find out the right number of handles for a connection pool.
+its fucking shit
+nothing really, it just caught on in the same way dark souls did of being this "mysteriously hard thing only the elites can do" according to brainlets.
+When in reality haskell is slow language that never should have left academia. Most programs aren't inherently lazy, which makes writing them in haskell inherently wrong. And it lacks dependent types, which I think is a must for FPLs. As well as quickly turning into the C++ of the FP world with everyone writing their own subset as well as bolting on awful extensions (looking at you liquid haskell).
+Learn Idris or Agda.
+If you are interested in encryption and verified systems, look into F*
+First thing. Loads of repetition in rc.c.
+I'd be flagging that...
+using haskell was the first time I went "so THIS is that good OOP shit".
+Trying to learn how to host a server. It's either really hard to set one up or I'm just really dumb. I'm leaning towards the latter.
+your mom
+Why defines instead of constants?
+Why not abstract send_uid and delay_ms into a static function that you pass the values to?
+Why the magic 12 and 1000 numbers?
+Why so much repetition in the send_& functions?
+So it's just popular right now basically.
+What do you mean by that? Isn't Haskell strictly functional?
+That's just how we C nerds do this xD
+no rude questions pls
+i like the 12. It's a nice number :-)
+because it's just a prototype LOL ^_^
+post GOOD desktops (preferably with fetches)
+fetches are lame
+why is void so nice?
+one day i will figure out how you niggers get your firefox to look this neat
+Cute Maki my man.
+after a few month of i3 I came back to xfce 
+It feels comfy
+nothing substantial
+twily.info
+color
+i fucking love it
+keep thuggin'
+The theme is good but everything else? Yikes
+lmao look at this wigger
+How do I get comfy 4chan?
+Nice desktops
+Maki a cute!
+teach me how to patch st
+I think he's using that
+https://github.com/siavash119/qtcha
+dont work ;_;
+pls i dont copy paste other ppls configs
+hi
+great rice
+nice n clean, i like it
+nice colors
+herbst <3
+always great
+this is awesome, love the bar and css. nice transparency and win decorations
+nice colors
+nice retro
+my fav itt
+the text feels a bit cramped tho maybe try adding a tiny bit of padding?
+my desktop is the bestest desktop
+i posted the wrong screenshot and i want to die
+I've seen the screenshots and I want you to die.
+get some taste faggot
+hahaha oh wow
+qtest deskie itt desu
+post more pls
+CUTE
+rude that anon was not me, can you fax me some bleach so i can drink it
+Embarrassing, you guys need to do something productive right now. Ricing your desktop is NOT productive, who are you trying to impress? A bunch of tech illiterate nerds on /g/? Get a grip my dudes, grab a coffee and read SICP.
+Later amigos.
+but what if i dont wanna program
+what if i wanna spend all day making my desktop pretty and drawing
+Admittedly I'm not that into ricing, but I'm a comp. sci student going into my final year. I like ricing because it makes it pleasant to use my laptop for extended periods of time which I need to for most of my college work.
+It's just like fiddling with all the settings on your mobile or whatever.
+Grey background in the terminal should be better
+hey David
+hnnngg
+What's this theme? Always wanted to have the top hardware and light, retro OS.
+cute bird ^_^
+Your taste in fonts is shit.
+Looks like shit, think you got enough icons on your address bar?
+Just werks, Considering Manjaro soon tho.
+pywal is gr8
+OS2preWarpDZ 
+But actually it isn't a complete theme it is just the window style
+you should try wpgtk
+I am productive all day at work. Ricing is a hobby. It's the perfect way to express our artistic things using raw numbers and configuration files. If u are not into it fine but I don't understand why are there so many haters. 
+I think in most cases ourselves. When you finish your rice and close everything and just looking at your desktop could make you feel happy.
+And this is the reason of this threads. We show ours and admire what other anons have achieved.
+manjaro was literally heavier ootb than ubuntu when you use guhnome.
+this
+I have icons for all the programs I want to run in the background, yes.
+rate mobile
+For a minute I read that as "fetishes"
+what browser is that? how'd you get the dropdown things on the left?
+It's qtchan.
+See : 
+Could you post the image of Lain on the left?
+What is it that you enjoy about xfeces overi3? I do enjoy that retro Windows look.
+Nice lockscre-
+Never mind.
+kill yourself
+Nigga, that's just vanilla Ubuntu with a gook wallpaper.
+looks very nice. how ubuntu should look ootb
+Don't get me wrong I love i3.
+But I had some problems with virtulbox and I going to use it heavily in the near future and also wanted to change up the things a bit ((:
+The thing is imo it is easier to set up tilling environment in a floating manager than the other way around. 
+I really start to like that closing feature with the browser on the picture tho.
+I just use i3 with no background wallpaper.
+Too lazy to choose one, and well, you never see it.
+Iosevka?
+Funny you should say that as I'll be trying my own hand at virtualization soon. thank you for your insight, anon.
+that's my current set-up as well. Didn't fall for the gap meme, eh?
+I don't particularly care for the OS but I love this wallpaper
+Too lazy to upgrade and I'll probably move to Debian soon anyway.
+Yeah.
+I did. But yeah, it feels comfy. Just setting i3 up and work.
+How did you work out your colorscheme? I'd never use pink but this looks really fucking good.
+Finally got a new wallpaper.
+i feel fkn braindead
+here's a thing
+1/2 for desktop
+2/2 for desktop
+What compositor do you use?
+1/2 for laptop
+Time get my eyes checked. 
+I like that colorscheme a lot. How unique
+2/2 for laptop
+no problem. anytime.
+Cant find it. Got a link?
+thanks :3
+Are you fucking serious
+Bros, how do I start ricing openbox?
+Any protips?
+very carefully
+Here you go 
+https://www.xfce-look.org/p/1238811
+reread his post, dumbo
+nice
+compton
+This is making me want to ironically run a fake XP desktop just to mess with people
+Just realized it didn't actually catch the OS, it's 7. Damn cygwin.
+That's really cool, anon.
+Which bar is that?
+Can you share your compton.conf?
+Oddly comfy.
+humiliate me.
+What a meme.
+I tried to install it from their LXQt Live ISO and I was amazed at how outdated their own pacman.conf was in that thing. Ended up giving Void a shot.
+Are they still moving their repositories twice a month?
+How did you install it anon? Was it worth it?
+no
+I'm pretty sure you can specify a program by its class in your i3 config and then tell it to always be floating, if virtualbox's window size is your problem... I can't imagine changing DEs just because of something this minor. You could also force virtualbox to always be on a certain workspace so that it gets to be full-sized.
+rofl. I was gonna reply to the first one and say the font and transparency were the biggest faults
+two portrait monitors? two workspaces on one portrait monitor? what's your physical setup like?
+Hello!
+Cute!
+Based awooposter
+I did all of that and said I still love i3. I never said you can't make it work.
+It was just one more reason to push the Y after apt install. I really loved my previous setup it was hard to leave.
+L O N D O N
+O
+N
+D
+O
+N
+I use wallpaper engine to have animated wallpapers with matching color schemes. This is one of them.
+rude
+What's the font?
+Pape?
+yeah a bit. I switched to that font last week, the one I used previously was way too wide I haven't updated my css yet
+faggot
+So what was the problem? I guess I'm not understanding.
+Is this more to your tastes?
+The picture of the VMs was fucked up and resizing the window wouldn't help. The only way of getting nice display was to start a vm on a dedicated workspace. I managed that with i3-msg and command line vbox with my pocketwin box I use frequently. But as I said I would work a lot with vbox in the near future with several different boxes and since I'm going to work on my diploma I must focus on the work part rather than a make it work part.
+excellent desktop awoo!
+really ugly
+Looks like tint2 + openbox to me
+Most in this thread are ugly. All just flat colors with a desktop image that is 90% one flat color, but for some reason has icons hidden anyway.
+what bar is that?
+I can't believe Illya poster is fucking dead!
+best nu-/desktop thread/ so far
+who in the actual fuck uses testing
+nice colors
+lookn good
+great colors
+i like it, could use some term padding
+this is great
+owo
+Can you post the dotfiles for this somewhere? I quite like it
+if the rest of the thread is ugly that makes you like beyond ugly. like fucking decaying zombie of a lovecraftian horror brought back to life with semen and pus ugly.
+no
+the fact that you think i take so long making my desktop pretty is a complement, so thank you
+That's Illya poster's desktop
+What?
+Feel free to post your own screenshots. O wait
+quotelinks and file names are hard to read
+other than that, it's top tier
+Agreed, I am going to make them lighter.
+Thank you.
+see 
+you are one seriously delusional asshole
+ok uggo
+(You)
+children in africa could've ate that (You)
+Good desktop
+what is your profession?
+Musician
+post your demo
+you got those reversed
+Kek, instant butthurt.
+praise kek
+can i please have your wall paper
+I want to rice my desktop, where do I learn such sorcery?
+in your mom's basement
+https://my.mixtape.moe/ikzjxv.mp3
+ftubuntu sampler
+it's nice
+thanks
+I wanted to post a joke recording but decided against it
+missed opportunity https://youtu.be/zvmU_6gxpaQ
+Thanks!!
+Terminal font? "PxPlus IBM VGA8"!
+this one is really nice
+owo
+i liked it
+just like my windows 10 lock screen!
+nice colors
+I'll bite
+hi acbn
+why do people shit on metro with its low effort designs, but then think this shit looks good just because it's not windows?
+1) that IS windows
+2) poor execution is where windows fails, not design
+hiya
+that wiki theme has me hard. source?
+Request i3 config
+it's one of the default wikipedia themes that you can select when you make an account, with the minor modification of making the page backround that yellow color with their built-in CSS editor.
+it's i3-gaps
+Haven't changed my wallpaper in a while
+it's just called "flower boy", friend :^)
+do you really browse on haiku? whats it like?
+I give it a Rourke/10
+It's no because I got rid of Diet Bonzi Buddy (Cortana) and the search bar.
+Also, minimalist.
+I don't know how to get fetch on Windows.
+wew
+Here you go.
+I've used Haiku unironically before, but are you enjoying using a OS with only VESA mode? I need hardware acceleration before I can use Haiku.
+guess you're just a fucking faggot then lol
+I didn't write the metadata :P
+Nice
+need that waifu material wallpaper
+'sup, negroes.
+postin' again I guess
+poor green man
+damn how'd you get your windows looking like that?
+TABS ON EVERY LEVEL
+OVER 9000 TABS!!
+TABS ON EVERY LEVEL!!
+IT JUST KEEPS GOING
+fag
+can you change font in st on the run?
+how about colors?
+hmmm??
+Why do you need to change the font or colors in your terminal regularly?
+and its an extra 2 commands to compile st compared to editing .Xdefaults or whatever
+you just don't get it.
+can i set the background image on the fly or even at all?
+no? well then your terminal is USELESS to me.
+Why the fuck do you need to set a bg image in a fucking terminal you autistic ricer?
+Just write a patch for it if it doesnt already exist.
+you clearly don't understand the high conceptual planes upon which i operate
+don't reply to me again.
+Retard
+sorry buddy but the trips of the holy gospel have spoken
+Yeah
+Who would have guessed.
+don't like it, binary colors and ugly font
+garbage
+there are better ways to have a desktop, if you're going to leave it blank why bother having that there
+good but ugly fucking waifu
+great but too many icons
+kill yourself
+too plain
+kill yourself
+god AWFUL font and border doesn't match anything, infact nothing matches with anything
+bad bar and horrible 4chan rice
+good
+horrible browser layout, pathetic gf waifufaggery
+garbage music and too plain, also rei sucks
+everything about this looks off
+nice
+this is the worst desktop in the entire thread, i want you to go to a coffee shop and show that off
+horrible music but good rice man
+change the font, everything else good
+you didn't even try you fucking faggot, kill yourself
+transparent doesn't work well in this, get a better bar
+kill yourself
+bland
+garbage 
+and it sucks, so get a new one
+best one in the thread
+horrible colors and inconsistent font
+i like it
+bad font, horrible music, ugly colors
+bad color and layout choice
+time machine but still bad
+kill yourself
+2nd best in the thread, nice one
+kill yourself 
+holy fuck that font is tiny what the fuck, also bad colors
+standard shit
+transparent terminal doesnt work here, bad pape, bad bar, garbage
+very nice
+kill yourself
+wtf is thsi fetish for xp here?? xp fucking sucked, 2000 was the last good wangblows
+die
+fix up the terminal but i love haiku so i cant even be mean, i love the pape too
+kil yourself
+just use w3m if you're going to be this much of a faggoty fagot
+kill yourself
+wiki theme not consistent, bad fonts
+kill yourself
+bad font bad bar bad colors bad everything
+its cool jimmy just change the bar
+kill yourself
+awesome but change the colors to be a bit brighter, unless your monitor is already bright
+kill yourself
+kill yourself
+bad 4chan theme, bad colors
+nobody will ever use your garbage pentesting meme distro, bad font and shitty colors
+didn't even try, making it japanese doesnt make it cooler you know, fuck you
+good music bad desktop and bad font, way too big
+when will people learn transparent image with text does not work, garbage, kill yourself too
+kill yourself
+so whos feelings did i hurt this time? i do not use any of the products in this image either
+I'm not killing myself tonight friend, whoever i will eat your mom ass.
+it's, ''however'', and stop using mac or windows you degenerate
+will do <3
+blacked color schemes were invented by BLACKED.COM
+not in my eyes ;)
+Also, thanks! What do you like most about it?
+It's max comfy. You should try it if you can get a shitbox PC to play with.
+I'm not running any 3D-intensive programs and anything else is fine with a fast enough CPU - and my version of that is a shitty Core 2 Duo from 10 years ago.
+Screenfetch looks better with the white terminals.
+very nice.
+really nice anon
+hi, phallus
+holy shit you're fucking deluded
+underage detected
+kek
+how stupid are you?
+pny is the ONLY with lifetime warranty
+i remember when my old pny 590 died i called them and they fucking gave me a new 1080ti for free
+And that's it. It's crap in every other aspect.
+Pny has better cooling solutions than other brands
+litterally the best card to overclock
+Proof or it didn't happen
+polybar
+http://is2.4chan.org/w/153045399605
+I FEEL FREEEEEEEEEEE
+that desktop BG is great
+always late for this shit
+Why? It's pretty low contrast, which helps to see the colors of window borders. And the pic itself is pleasing to the eye.
+and comfy
+thanks you
+to each his own, but nice pape, good font, appealiing neutral colors, nice and compact
+Thank you :)
+can you share your browser css? thank you
+anons, why are you not using the most comfy OS of all?
+https://nakedsecurity.sophos.com/20
+What font is that? and is it i3? bar? :)
+give wallpaper pls
+lol forgot to cover the names :/
+thanks though
+I wanted a simple desktop for my windows partition
+Nah
+It is i3 bar.
+Chrome...
+(pic unrelated)
+Thread is visible in the pic
+its Terminus 12 on the bar and 14 everywhere else. its herbstluftwm and tint2
+tint2
+and siji font for icons
+Do you base your opinions on a dice roll?
+shiki une meilleure
+how did you change taskbar color?
+nvm found it im an idiot.
+I'd expect anybody here to know how to do that.
+Gave me a nice giggle.
+yea as i said im an idiot lol
+xd
+oh fug
+I made the foobar window visible on the taskbar reeee
+wewlad
+post wallpaper please
+looks amazing. How btw?
+how btw what?
+how did you do it
+Implying i'm not productive.
+very carefully
+omg this is so comfy
+Shut up!!!
+i've lost that particular version but this one is pretty close the colors are just a bit off
+https://my.mixtape.moe/ambpuz.png
+whats the music player?
+Get over yourself you pretentious bastard. I'll use what I want, and you shall cease your behavior.
+Fucking edgelord.
+been fiddling with my bashrc to make it look nice
+It's a work in progress.
+they'll keep doing it as long as you keep giving them (you)s
+did prilia anon die
+sadly.. ;_;
+everything looks great, could use some terminal padding and some padding to the right of the clock
+Why so many with no DE?
+How did this happen, /g/?
+SV h8 YT?
+given how the software industry caters to SJWs, I would be surprised if said "skin color" wasn't white... in which case this dude is based, otherwise a onions.boy.
+uncool indeed
+Of course it was white. Look at the slide on 
+. He specifically didn't say "white" to get attention and make a point without being ridiculed.
+Who tf is this Bryan cuckduke?
+Most likely, though he's very protective of the "chosen people" because he's a "chosen one".
+Communists. 
+Also Lunduke is partially correct. He's wrong in saying that people are people. There are real genetic differences between races. But Lunduke is absolutely right in saying that people should keep thier politics to themselves at a non-political convention, and that things should be merit based. I'd gladly sit down to speak with a black man who has something to contribute, but he has another thing coming if he thinks he's going to fuck my daughter. I'd just take that outside to the parking lot.
+hi, /pol/
+Did hell freeze over?
+Based. I agree with this, and it's a hell of a lot less racist, and more reasonable, than giving people a free pass based on their skin color. Respect is earned.
+I shouldn't have even used the word "racist" because it's dumb. It's less dividing as in everyone has an opportunity as long as they have the qualifications.
+Best example is Yarvin completely keeping his opinions to himself in Lambdaconf, but not everyone can be mature individuals.
+They infiltrated through the HR departments and affirmative action hiring
+Lunduke isn't spilling but I guess it's what 
+ said. 
+Lunduke is just principled, which is why he completely avoids mentioning the ethnicity they are being racist against. Same reason he supported The Daily Stormer when they were kicked off every platform on the web
+Very original.
+When they look back on our century, CY will be one of its most influential figures. And that's if Urbit fails.
+Nope. They are neoliberals, and don't give a shit about us.
+Not sure I understand what you meant here friend
+Because of Urbit, or UR? Either way, I can hope, but I worry that we're too far gone
+Both. If Urbit fails, there will be other, probably less principled global computers. Worst case, he's still an influence on Land, who is guaranteed to be remembered as a philosopher, and will be rediscovered through Land.
+I cant read shit on the slides. What does it say?
+Some shit about filter bubbles, which are a more theoretical concept than most people imagine
+What are your thoughts on PulseAudio?
+/g/ told me it's a bloated piece of shit. 
+I would appreciate some more nuanced insights, too. Are there alternatives? So far pulseaudio worked OK for me, but lately I had some troubles with audio.....
+I don't understand what it's for
+It's overly fragile.
+increasing cpu load
+It is systemd level shit
+why is freedesktop doing that?
+This. Why the hell does it exist? Poettering's explanations, at least the ones listed in the wikipedia page last time I read it, said that we needed it to move away from OSS, which he called a "simplistic 90's audio stack" or something to that effect. The thing is though, at the time that statement was made, the Linux kernel had already gotten rid of OSS and replaced with ALSA, so his own justification for Pulseaudio's creation was outdated by the time he said it.
+seems like it.
+still better than raw alsa
+Easiest per-application sound control.
+Well whether you liked it or not, don't worry, guys, because RedHat has come to redo the Linux audio stack yet again!
+https://pipewire.org/
+and since their website font color/background color choices are utter shit, here's what the text says:
+I don't really have an opinion on it. My system uses it and it plays sound so it seems to be doing its job.
+Exactly. Couldn't care less about philosophical bullshit and who the fuck is Lennard. Pulse jest werkz
+unironically this
+pulseaudio was made for a good reason, but with some bad design decisions. fixes a few flaws in ALSA, but adds many more
+I never heard of them.
+A good PA use will be mixing a music player output with mic input and sending it over network or as input to a VoIP program while keeping music player speaker output.
+Prev thread: 
+HAHAHAHA, does microsoft even have QA? HOLY SHIT
+why do you even bother with windows?
+implying that wasn't intentional
+press the windows key on your keyboard, then type in settings and go to System>Storage>This PC and click Apps and Games
+delete that shit like 3GB Bubble Bitch Saga 3 and Mincraft they install on your computer that you don't want anyway
+Google it senpai
+just use imageglass, faggot
+already done that my friend, I uninstalled everything. that's why when I noticed a new app appear, and saw that it has an uninstall option, I pulled the trigger. and nowhere did it tell me it's actually the microsoft photo app so it went to trash with it. and that the microsoft photo app does not have an uninstall option by itself... holy fucking shit... a braindead ape would not come up with something as retarded like this
+You can still Remove-AppxPackage that shit, just as you can with Mail and Groove, etc. They just decided to disable the normal uninstall for it because greed.
+fucking kek, but thanks anon
+this is how bill gates brands his nigger cattle
+haha ur computer is weak
+You're being used by the botnet, retard.
+I know, but they are literally contradicting themselves.
+So glad it's possible to disable that shit.
+Unironically not, they laid off most of them, since it's cheaper to just let the users test your software.
+fpbp, sage & /thread
+It does, it's meant to be this way 'cuz normans and shietz
+Do you understand how retarded you sound?
+IT'S THE PHOTOS APP. 
+IT'S LIKE SAYING YOU WANT TO UNINSTALL INSTAGRAM DIRECT MESSAGES AND THEN ARE SURPRISED INSTAGRAM UNINSTALLS.
+LITERALLY STOP BEING RETARDED.
+Do you have brain damage?
+then why let me uninstall the "video editor" part of the app and not the "microsoft photos" app? why isn't it consistent? either let me uninstall it both ways or not.
+the point went over your head.
+That sounds reasonable
+Why? Just don't use it, maybe you'll need it. Storage is cheap.
+Got me
+Why are they boomers?
+Is that deliberately a conditioning tool for the youth?
+This is 100% a forced meme too.
+its just a harmless meme,why be so cynical about it?
+sage
+Because it's not harmless, it was always intended to control the forum and it was likely spammed by some organisation for the sake of controlling thought.
+The days of mere forced memes are over thanks to that fucking election. I bet government services everywhere post here constantly, in fact, I KNOW they do this shit.
+I'm 46
+memes are based partially on reality, nobody born after 64 can be classified boomer under any circumstances, hence why it's unfunny, embarrasing and reddit tier, like posting a pony memes, just accept well entrenched millenial or gen-z memes or fuck off with your unoriginal blandness
+exactly the unoriginal imbecile everyone's talking about
+It's true I have been force to try Monster White because of this meme. It's actually all a corporate plot to sell us monster energy.
+low on calories but tastes horrible
+This guy is right you know. Today's memesters are unfunny, unoriginal faggots.
+Actually it tastes great... thats the problem for me. I think I actually like it.
+This is /b/ tier fucking cancer worse than 2010's coolface.
+... don't even joke about that or you'll give them ideas.
+Boomers fought the axis in 3 wars so you ungrateful snotnoses could have the right to shitpost you're lameass faggot memes.
+it's not bad for a zero sugar drink, since it doesn't have this penetrating aftertaste from the artificial sweeteners other drinks have
+You think I'm joking? I'm pretty fucking sure they saw a huge increase in monster energy sales from this meme. There lots of easily influenced people like me that would never touch it unless something like this.
+I never even looked in the direction of Hagen das before Kara no Kyoukai.
+Boomers also protested a war they were also fighting causing their side to end up losing the war to the gooks even though the gooks had shit training and weaponry.
+Or Dr Pepper with Steins Gate?
+Well no theres no Dr.Pepper here in Croatia.
+But no Dr.Peper was sold to me via this and sure enough the first time I saw Dr.Peper in a foreign country I bought it.
+if they can't be classified as boomers wouldn't that in fact make it more original. I, for one, think that this is one of the more funnier memes of the last couple of years, it's all the newfags that are getting triggered by it, trying to fit in, by bashing anything and everything
+the original /fit/ sips posting was 100% a viral campaign, this might be it's continuation, but boomer started evolving organically, unlike sips, and the energy drink is of second importance
+Are you telling me S I P B O I S was a shill campaign?
+No it didn't, I definitely caught posters out on multiple boards deliberately spamming this shit. Multiple threads on /mu/ which is now spammed to oblivion lately.
+yes, it was forced and forced and forced until it gained some traction, but boomer is already more popular after only a couple of months, it's still in it's infancy and I can't wait to see what will be done with it
+fuck off chaim
+time to grow up, anon
+Did you see their IP addresses?
+Yeah, yeah, woe on me for going to that cancerous hole.
+Now I wish I had my old /b/ folder from way back with all the stupid fucking coolfaces.
+No, but the patterns were definitely there in the initial post, the subsequent newfaggotry and obliviousness to subtle memes and then lastly the typical behaviours that come with forum disruption techniques.
+It's like he didn't speak my language if you know what I mean.
+And the worst part is that they pretend to be anons in the most obnoxiously newfag way. It rustles my jimmies to maximum rustled jimmies.
+Those were the days
+How is that funny?
+It's as funny as fucking 2010 tier trollface cancer.
+chill out, most boomer memes are actually posted by boomers
+back in my day we trolled people good, *cracks can* ... better times
+Unironically this is true. Today it's called misogyny, hate speech etc...
+Back in my day, newfaggotry was nearly bannable.
+Should I feel bad about picking Dr.Peper over reimu?
+I thought I was overly autistic about this shit, I'm glad I'm not the only one that can tell shills apart from shitposters and trolls or newfags
+at least we can all agree that boomer is infinitely better than s o y boy
+The obliviousness to comments is the dead giveaway. It's what sets them apart.
+AND there might be more than one poster on occasion who has a similar style of posting. Most anons could not see that.
+That's what bothers me, that anons may be falling for that crap.
+Another thing, time to learn how to break AI I think. Because some of the posters I've seen don't even seem human.
+Both are cancer. Basedboys are literally the type to first discover the chans. Then they become depressed, apathetic NEETs.
+wtf i hate memes now
+Best meme ever made
+In current year
+Unironically
+What I like about boomer meme is that it's pure made for making fun of people for the sake of it. The one who gets triggered by it are mostly true boomers from /r/the_donald and /pol/.
+More like a group of boomers who tries to stop this meme because their feelings got hurt
+This guy gets it
+And it's even more fun to post boomer memes because there are anons who get pissed about it
+I hope this will tank the energy drink market like söyboy torpedoed söy market.
+Accurate
+can zoomers stop pretending that 30 year old boomers don't fucking love 30 year old boomer posting?
+it's not "making fun of them", it's bringing the culture forward, and anything that brings back old memories of the better times is a good thing
+you nu-right zoomers get off on making each other mad
+you're not making us mad by letting us talk about the glory days
+thought this one was depressing until i saw the candlestick phone
+Its a good meme. Perfectly describes rapidly aging 28-35 yo millenials
+30,000 burgers move to Canada because draft.
+30,000 Canucks volunteer to fight commie gooks.
+https://www.youtube.com/watch?v=PaE
+blessed video
+The meme is supposed to make fun of aging millenials by associating them with an older demographic, one that millenials notoriously somewhat justifiably blame for all their problems.
+But instead most of them seem to have embraced it and see themselves as aging comfortably and having shit figured out.
+It's a complicated meme.
+What you are I once was. What I am you will surely become.
+Answer to all your questions, right?
+4chanx mark new ips dumbshit
+This is worse than Milhouse.
+milhouse was never a meme
+Milhouse is not a meme is a meme tho
+Your life is a meme.
+This is the lamest conspiracy theory I've ever read
+it isnt any more a conspiracy theory than congressional stafferers editing wikipedia
+Man, boomers really have better taste than the underage redditors.
+*sip*
+**SIIIPPSSS**
+You must go back to 
+hope your vile vets go mental with PTSD
+But Hagen das was in the original free web novel version of KnK back in 1998, so I doubt it's some conspiracy by Kodansha, who would later publish the physical versions of the novel, or Aniplex, who published the movie adaptations, to sell ice cream.
+Let me just log into my forum account from 2005 called xxx-zofg-killa-xxx and show these kids how you write informative posts.
+you aren't looking hard enough.
+based
+You have no grasp of history. 
+Please don't disrespect all the brave people who suffered and died in Vietnam, on both sides, for you are ignorant and know nothing of what you speak.
+It'll be super fun when you ARE ONE.
+Which will happen to you much faster than you can ever imagine right now.
+That underage 15 your old failed genome experiment that doesn't know how to write forum in plural
+This makes it even funnier
+So gay lmao
+Project Chanology was the beginning of the end of the golden age of trolling and memes desu senpai.
+He's right though
+https://en.wikipedia.org/wiki/Wedge
+4chan is a boomer image board forum.
+Good album.
+i had take the boomer meme instead of the " cringe compilation" meme any day of the week
+that game was awesome, I forgot the name tho
+Why the monster drink is part of the meme is s mystery to me. Back in the day we only had red bull.
+boomer has to take care of his sugar intake
+Typical
+Honestly it should be Bawls.
+motherload
+epic thread, let's get some boomer images going,
+sorry your pitiful brains can't handle the many levels of irony and meta that are required for these high-level memes
+it's the kind of comfort where you just accept all the fucked up shit with an attitude of detachment, not the kind of comfort that comes from resolving things or believing things can or will improve. it's a cynical kind of peace.
+https://youtu.be/L6D-svx6Tyc
+Hey boomers. Which era here applies most to your innocent days before your life was ruined?
+Early Gen X: https://www.youtube.com/watch?v=q4u
+ok, kiddo
+Well fuck. I still lurk mostly for info regarding maintenance, in the automotive realm those old car forums are giant repositories of information you can't find anywhere else.
+the US lost because the entire premise was fucking stupid and they had no idea what they were doing. the gooks literally just outplayed them because they learned how with the french and others, and had a much better understanding of the terrain and country as a whole.
+what age are you allowed to be on 4chan 
+of you're like under 16 people will make fun of you 
+now if you're 20 or over people are starting to make fun of you
+This 30s = boomer meme kinda doesn't connect with me because I myself am in my 30s and my parents are the ones that are boomers. So it's just awkward as fuck to me. Anyone else?
+wait, it isn't the sole point of this site to make fun of everybody and everything?
+I feel cheated
+It's a joke about how Early Millennials are turning to dust and Gen Z is becoming the hip new young demographic and Early Millennials (or "30 year old boomers") are rolling their eyes at people who have nostalgia for Wii instead of Sega Genesis.
+you're not getting it. it's precisely because you're 30 and not a boomer that the boomer meme applies to you. the boomer meme has nothing to do with being a literal boomer.
+heh, sucks to be you, gramps
+Domino effect seems legitimate
+Same shit different asshole
+it's a slap on the face of millennials because gen Z is here now and to those Zoomers, millennials are the old weird people that are easy to make fun of
+seeing millennials seething over the boomer meme only makes it more funny tbqh
+Baby boomers are like 70 or something?
+I guess. It was a psychological bubble of the time so it's hard to completely put ourselves in those shoes with hindsight. but still, there were fundamentally stupid things that started the US on it's "war decline", aka making situations worse, never "winning", and in many cases actually creating the conflicts and enemies you have to fight later. the US created ho chi mihn, the same way they created osama bin laden. it's dangerous to be so over-eager and short sighted about intervention.
+Guess it has to do with being compared to the real boomers who basically stole a lot of our future.
+Shitty economy and job prospects, shitty worker rights, shitty environment, shitty healthcare, evangelicals trying to dictate their bullshit, us never being able to retire because they are gonna bleed social security dry, no pensions, having college debt out the ass so barely us buying actual houses, a lot of us still living at parents house, pointless war after pointless war to fuel military industrial complex, etc.
+Tho how does this apply to millenials in general? At most it's making fun of redneck millenials.
+BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER BOOMER
+Actually pol is pretty damn right wing and supports most of this shit the boomers did.
+???
+honestly boomerlife looks comfy af
+yeah, and Zoomers also disdain millennials with their crazy mental health issues with gender, participation medals culture, victimization, not wanting to get out of childhood and all the SJWism they're known for
+so yeah, boomers did all of that but millennials just put the shit down a new low and still try to look like they're somehow superior to boomers
+Boomers want the government to take care of them and let tens of millions of immigrants in
+Most boomers are republican/conservative
+Zoomers are the most gender fluid group of weirdos you've ever seen
+Yes a whole bunch of random culture shit you can just ignore is the same as shit that actually affects your life like the economy and healthcare.
+Also , don't give a fuck about shit other people label as childish, Dragonball for life bitch.
+They're evenly matched
+I agree with that but you guys were the ones who first paved the road for all these people from all generations, with several mental health issues, who should been receiving clinical and psychiatric support btw, to feel validated and impose their madness on all others
+I mean, millennials are the only generation perceived as weak simultaneously by boomers, Xomers and Zoomers
+I had a work assignment that involved leafing through hundreds of near-identical old car forums. Most had less than a few posts per day, and many were at the "hey dude I met on this forum when I was in college 20 years ago, how are the kids? dude? dude?" stage.
+see, this is what I'm talking about
+Is 4chan not a forum?
+It's an anonymous image board.
+You mean those new tarted out bulletin boards?
+I - I - i t  s   m - m y   O - o n e P - p - p - p - p l u s . 
+ N o t e 8 
+ D o   m u g g l e s   r e a l l y   d o   t h i s ?   W a l k   u p   t o   p e o p l e   a n d   a s k   w h a t   p h o n e   t h e y   u s e ? 
+ g i a n t   c o c k   p h o n e   
+ r i n g   r i n g   r i n g   g e t   r e a d y   f o r   d i c k 
+ I   d o n ' t   h a v e   a   p h o n e   b e c a u s e   I   d o n ' t   l i k e   b e i n g   o b l i g a t e d   t o   b e   a v a i l a b l e   2 4 / 7   a n d   a l s o   p h o n e s   a r e   b o t n e t . 
+ I ' v e   l i t e r a l l y   s p e n t   y e a r s   t e l l i n g   p e o p l e   t h i s . 
+ H u a w e i   g r 5 ,   b e c a u s e   I   a i n ' t   n o   n o r m i e   a s s   l i l   b i t c h ! 
+ i f   a n y o n e   e v e r   s a y s   t h i s   t o   m e   i   w i l l   p u n c h   h e r   i n   t h e   f a c e 
+ B l a c k b e r r y   q 1 0 
+ G e t ' s   b o i p u s s i e s   s o a k e d ! 
+ L i t e r a l l y   y o u   g u y s . 
+ I t ' s   c a l l e d   a   C H I N K   F O N E   y o u   m a y   h a v e   h e a r d   a b o u t   i t 
+ H e r e ' s   a   p h o t o   i   t o o k   o f   s p i d e r s   i n f e s t i n g   m y   b e d r o o m 
+ i   h a t e   s h a l l o w   f u c k s .   h a v i n g   a   b l a c k b e r r y   r e a l l y   i s   a   g r e a t   f i l t e r   b e c a u s e   r e a s o n a b l e   p e o p l e   d o n ' t   c a r e ,   a n d   c o n s u m e r i s t s   m a k e   a   b i g   d e a l   a b o u t   i t . 
+ W h o   t h e   f u c k   a r e   y o u   a n d   w h y   t h e   f u c k   a r e   y o u   t a l k i n g   t o   m e   b i t c h ?   I   a l r e a d y   h a v e   a   g i r l f r i e n d ,   s c r a m   y o u   h o n e y p o t   m o n g r e l . 
+ I   r e m e m b e r   y o u   f r o m   t h a t   G o r d o n   R a m s a y   s h o w . 
+ D o r o   8 0 4 0 .   G u y   i n   t h e   s h o p   s a y s   i t s   t h e   s n a z z i e s t   m o d e l 
+ L i t e r a l l y   t h e   m a j o r i t y   o f   o l d   a n d   m i d d l e   a g e   p e o p l e . 
+ I t s   a   n e x u s   6 p .   I t s   l i k e   t h e   p r e d e c e s s o r   t o   t h e   p i x e l   i n   t e r m s   o f   h a v i n g   s t o c k   a n d r o i d ,   b u t   i m   r e a l l y   n o t   r e a d y   t o   p a y   f o r   a   p i x e l   y e t   w h e n   t h i s   d o e s   m o s t l y   t h e   s a m e   t h i n g .   I   r e a l l y   w i s h   i   c o u l d   g e t   a   s o n y   e x p e r i a   b e c a u s e   i   l i k e   t h e   w a y   t h e y   l o o k ,   b u t   i l l   d e f i n i t e l y   m o u n t   l i n e a g e   o n   i t   i f   i   d o   g e t   o n e .   P r o b a b l y   w o n t   t h o u g h ,   s i n c e   i m   o n   t h e   p r o j e c t   F i   n e t w o r k   a n d   i t s   e x c l u s i v e   t o   " g o o g l e "   p h o n e s .   Y o u   e v e r   h e a r d   o f   p r o j e c t   f i ?   i t s   g o o g l e   b e t a   c e l l   n e t w o r k .   I t   u s e s   t h r e e   d i f f e r e n t   c e l l   p r o v i d e r s   t h r o u g h   m u l t i p l e   b a n d s ,   s o   a n y   t i m e   i   l o s e   s i g n a l   i   j u s t   j u m p   t o   a   d i f f e r e n t   n e t w o r k .   A n d   i f   t h a t   f a i l s   i   c a n   j u s t   u s e   w i f i   c a l l i n g   w h i c h   w o r k s   g r e a t .   
+ w h y   t h e   f u c k   d o   i   b o t h e r   e x p l a i n i n g   w h e n   i   k n o w   t h e   r e s p o n s e   i s   a l w a y s   t h e   s a m e 
+ I   d o n ' t   u s e   a   m o b i l e   t r a c k i n g   d e v i c e . 
+ I t ' s   f u n n y ,   b e c a u s e   I ' v e   n e v e r   m e t   a   s i n g l e   p e r s o n   t h a t   l i k e s   t h e i r   p h o n e .   T h e y ' r e   a l w a y s   c o m p l a i n i n g   a b o u t   h o w   m u c h   o f   a   p i e c e   o f   s h i t   i t   i s   ( m a y b e   j u s t   t r y i n g   t o   j u s t i f y   b u y i n g   a   n e w   o n e )   o r   c o m p l a i n i n g   a b o u t   h o w   p e o p l e   w o n ' t   l e a v e   t h e m   a l o n e   f o r   a   s e c o n d . 
+ P e o p l e   w h o   c o m p l a i n   a b o u t   t h e i r   p h o n e s   a r e   j u s t   b o r e d   a n d   w a n t   a   n e w   o n e ,   o r   a r e   j u s t   s p o i l e d   b i t c h e s   w h o   c a n ' t   i n t o   l i f e   w i t h o u t   n e w   s h i t   a n d   o n   t h e   r a r e   o c c a s i o n   t h e i r   p h o n e   i s   r e a l l y   a   p i e c e   o f   s h i t . 
+ I   d o n ' t   u s e   a   p h o n e   b e c a u s e   t h e y   a r e   n o n f r e e   s p y w a r e . 
+ a   w h a t ? 
+ w h o   m a k e s   t h a t ? 
+ w h o ? 
+ o h h . . .   o k a y ,   w h y   n o t   s a m s u n g   o r   i p h o n e ? 
+ S o   y o u ' r e   t o   a f r a i d   t o   p u n c h   g u y s ? 
+ I ' l l   b e   b u r i e d   w i t h   m y   i P h o n e   5 c   b e c a u s e   I   d o n ' t   c a r e   o r   r e a l l y   u s e   m y   p h o n e   m u c h 
+ I t ' s   k i n d   o f   s a d   t h a t   i n   t h i s   e x c h a n g e   y o u ' r e   t h e   o n e   b e i n g   t h e   c o m p l e t e   a u t i s t . 
+ O n l y   p e o p l e   I ' v e   s e e n   w h o   c o m p l a i n   h a v e   p e r f o r m a n c e   i s s u e s   w i t h   i t ,   l i k e l y   a l l   a p p s   o p e n ,   f u l l y   b l o a t e d   e t c . 
+ n o o n e   w h o   w o u l d   a s k   t h i s   w o u l d   b e   a   m a n 
+ b u t   s u r e   i   w o u l d   p u n c h   a   g u y 
+ I   g e t   t r e a t e d   l i k e   s h i t   w h e n e v e r   I   g o   i n t o   t m o b i l e   a n d   t a l k   t o   t h e   f e m a l e   s t a f f .   T h e y   g i v e   m e   l o o k s   o f   d i s g u s t   a s   s o o n   a s   I   s a y   t h e   w o r d   b l a c k b e r r y   o r   s h o w   t h e m   m y   p h o n e 
+ j u s t   l i k e   m y   i d i o t   f r i e n d s ,   t h e y   b u t   s h i t   f o r   w h a t   t h e y   t h i n k   i s   s t a t u s .   a n d   o f   c o u r s e   t h e   a b i l i t y   t o   s n a p c h a t . 
+ t h e y ' l l   n e v e r   u n d e r s t a n d   a   g r e a t   p h y s i c a l   k e y b o a r d   o r   t h e   H u b . 
+ x i a o m i   r e d m i   n o t e   4   c a u s e   i t ' s   i n c r e d i b l y   c h e a p 
+ w h e r e   a r e   y o u   g o i n g ,   l e t ' s   h a v e   s o m e   f u n 
+ I t ' s   a   L G   V 2 0 .   Y e a h ,   i t ' s   k i n d   o f   e n o r m o u s ,   m y   o l d   o n e   d i e d   a n d   t h i s   o n e   h a p p e n e d   t o   b e   l y i n g   a r o u n d   a t   w o r k ,   a n d   I   w a s   t o l d   I   c o u l d   t a k e   i t . 
+ i s n ' t   i t   n e a t ?   I t   s h o w s   m y   n o t i f i c a t i o n s   a n d   s t u f f   w i t h o u t   c l u t t e r i n g   u p   t h e   m a i n   s c r e e n .   I   c a n   a l s o   t u r n   o n   t h e   f l a s h l i g h t   a n d   c o n t r o l   s p o t i f y   w i t h o u t   w a k i n g   u p   m y   p h o n e . 
+ W E   F O U N D   T H E   N O R M I E ! 
+ A I M   W E L L   B R E T H R E N S ! ! 
+ W H Y   A R E   Y O U   R U N N I N G 
+ T H E   N O R M I E   F E L T   T H R E A T E N E D   B Y   O U R   S U P P E R I O R   M O B I L E   P O W E R ,   S H E   I S   R E T R E A T I N G   T O   S A F E T Y ,   I N   H E R   N O R M I E   N E S T ! ! 
+ I n   o t h e r   w o r d s   s h e   r e t r e a t e d   t o   h e r   a p p l e   a l t a r 
+ H a h a h a h a h a h a h a h a   H o w   T h e   F u c k   I s   B e i n g   O b l i g a t e d   2 4 / 7   R e a l   H a h a h a h a   N i g g a   J u s t   W a l k   A w a y   F r o m   T h e   P h o n e   L i k e   N i g g a   T u r n   T h e   P h o n e   O f f   H a h a 
+ - -   t .   c a n ' t   g e t   h i p s t e r   p u s s y   c u z   h e ' s   a   h o m o s e x u a l   i p h o n e   u s e r 
+ : ^ ) 
+ w h y   d i d   y o u   p o s t   a   p i c   o f   a   d o g   s h i t   o n   m y   l a w n ? 
+ h o w   n u   a r e   y o u 
+ W e   g r e w   o u t   o f   t h e   " a c t i n g   l i k e   a   r e t a r d   i s   f u n n y "   p h a s e ,   n e w j a c k . 
+ D o e s   i t   m a t t e r ? 
+ A - A n   i p h o n e   7   p l u s 
+ t h e   f i n g e r p r i n t   s c a n n e r   o n   t h e   b a c k ?   i - i   g o t   t h a t   c u s t o m   m a d e   i n   c h i n a   l - l i k e   t h a t   y o u t u b e   r e c o m m e n d a t i o n   g u y 
+ I t ' s   a   m e m e   y o u   d i p 
+ k i l l   y o u r s e l f   u g l y   r e t a r d 
+ m u g g l e 
+ Y e a h   n a h ,   a p p l e   s h i l l ,   t h o t s   m i g h t   h a v e   " i p h o n e "   b u t   t h e y ' r e   a l m o s t   a l w a y s   i n   h o r r i b l e   c o n d i t i o n   a n d   o l d . 
+ X i a o m i   a n d   H u a w e i   a r e   a c t u a l l y   p r e m i u m   p h o n e s   o u t s i d e   o f   U S A .   H u a w e i   i s   p r e m i u m   e v e n   i n   C h i n a . 
+ A   S a m s u n g 
+ D o   y o u   h a v e   t h i s   o r   a n   i P h o n e ? 
+ i t ' s   1 7 5   b u c k s   i n   R u s s i a ,   t h a t   a i n ' t   p r e m i u m ,   b u t   a   g o o d   p h o n e   n o n e t h e l e s s 
+ L G   G 6   w i t h   a   S p i g e n   T o u g h   A r m o u r   c a s e   a n d   t e m p e r e d   g l a s s   s c r e e n   p r o t e c t o r . 
+ d r o p p e d 
+ A   s u p e r   u l t r a   c o s t u m - m o d d e d ,   s a m s u n g   G a l a x y   S 9   + ,   w i t h   a d d e d   L I t h i u m   e x t r e m e   c a p a c i t y   b a t t e r y ,   w i t h   8 k   c u s t o m   m a d e   d i s p l a y . 
+ G o l d   b e z e l s ,   a n d   i n f i n i t e   d a t a   b e c a u s e   i   c a n   p r o g r a m . 
+ S o r r y ,   b r o t h e r .   S h e ' s   m i n e   f o r   t o n i g h t . 
+ A n   i P h o n e   5 S   t h a t   n e e d s   c h a r g e d   c o n s t a n t l y   a n d   a   s m a s h e d   s c r e e n 
+ e l a b o r a t e 
+ O h   i t ' s   j u s t   a   p h o n e   I   m a d e   m y s e l f   d u r i n g   m y   m a n y   h o u r s   o f   f r e e d o m   f r o m   w a g e s l a v i n g 
+ n o t   i m p r e s s e d .   i   t h i n k   y o u   m e a n   a s s e m b l e d ,   l i k e   a   w a g e s l a v e   w o u l d   h a v e   g o t   p a i d   $ 7 . 5 0 / h o u r   t o   d o . 
+ A n o n   m u s t   l i v e   i n   a   t h i r d   w o r l d   c o u n t r y   a n d   u s e   o n l y   U D P   p a c k e t s . 
+ I   d a r e   y o u   t o   w a l k   i n t o   a n   a i r p o r t   w i t h   t h a t . 
+ O h   y e a ,   l e t   m e   s h a r e   y o u   i n f i n i t e   d a t a   w i t h   y o u ,   v e r y   c l e v e r . 
+ S h i t   w o u l d   g e t   p a t c h e d   y o u   n i g g e r 
+ l u m i a   6 2 5   h e r e ,   w e l l   ' o l   l u m i a   u s e d   t o   g e t   r e p l a c e d   b y   m i 4 i   u n t i l   i t   h a d   p r o b l e m   2   d a y s   a g o   a n d   w e n t   b a c k   t o   m y   l u m i a   o n l y   t o   f i n d   o u t   i t   s t i l l   w o r k s   f l a w l e s s l y   
+ s h a m e   t h e y   k i l l e d   w i n d o w s   p h o n e 
+ I   u s e   a n   o l d   H o n o r   8 
+ H e y ,   g i r l .   W h y   a r e   y o u   i n   h i g h   s c h o o l ?   Y o u ' r e   2 5 . 
+ i P h o n e   X . 
+ N o   w a y   a   f i n e   g i r l   l i k e   t h a t   h a s   a n   A n d r o i d   l o l . 
+ S e n t   f r o m   m y   i P h o n e 
+ A   H u a w e i   p 2 0   w h y   d i d   y o u   a s k ? 
+ I   o n l y   e v e r   g o t   a   s m a r t   p h o n e   j u s t   t h r e e   m o n t h s   a g o   a n d   I   o n l y   g o   o n l i n e   i f   I   w a n t   t o   t a l k   t o   s o m e o n e   o r   i f   I   a m   l o o k i n g   f o r   s o m e t h i n g .   
+ S h i t   i s   c o n v e n i e n t   a s   f u c k   s p e c i a l l y   f o r   m a p s   a n d   p u b l i c   t r a n s p o r t . 
+ l i t e ?   d o   y o u   r e c o m m e n d   i t ? 
+ t h e   o n e   a n d   o n l y   t i m e   a   g i r l   c o m m e n t e d   o n   m y   p h o n e   w a s   t o   t e l l   m e   t h a t   s h e   h a d   n e v e r   s e e n   a n y o n e   e l s e   w h o   h a d   o n e . 
+ n o   o n e   c a r e s .   h o n e s t l y . 
+ T h a t ' s   j u s t   g r e a t . 
+ I t ' s   o k ,   n o t   g r e a t   b u t   o k .   W o u l d   w a i t   f o r   a   D a l e .   I t ' s   l o a d e d   w i t h   s p y w a r e   t h o u g h   r e m e m b e r   t o   r e m o v e   h i t o u c h 
+ I   w a n n a   k n o w   h o w   t o   i n s t a l l   t h e   l i n u x   i n   i n d i a n   p c   o f   w i n 7 
+ s o m e t i m e s   i f   t h e y ' r e   l o o k i n g   t o   g e t   a   n e w   o n e   y e a h ,   b u t   u s u a l l y   n o t   t o   s t r a n g e r s 
+ Y o u   a r e   r e t a r d e d   m y   m a n 
+ V e r y   n a i v e . 
+ Y o u   t h i n k   y o u   d o n ' t   h a v e   a   u n i q u e   b r o w s e r   f i n g e r p r i n t   t h a t   c a n   b e   m a t c h e d   t o   y o u ? 
+ h o n e s t l y   i   w o u l d   b o n e   a n y o n e   a c t u a l l y   u s i n g   a   b b   d e v i c e   i n   2 0 1 8 
+ t .   S c h i z o p h r e n i c s   w h o   t h i n k   t h e y   a r e   i m p o r t a n t   e n o u g h   t o   b e   s p i e d   o n   d u r i n g   t h e i r   h e n t a i   a n d   h o o k t u b e   b i n g e   w a t c h e s 
+ E v e r y o n e   l a u g h   a t   t h e   i V i r g i n   w h o   t h i n k s   s p e n d i n g   $ 2 0 0   m o r e   o n   t h e   s a m e   s h i t   w i l l   m a k e   w o m e n   l i k e   h i m .   T r y   l o s i n g   w e i g h t ,   t a k i n g   a   s h o w e r ,   s h a v i n g   o f f   y o u r   n e c k b e a r d ,   a n d   b i n n i n g   y o u r   w e e a b o o   c u m   c r u s t e d   f i g u r i n e s ,   y o u   p a t h e t i c   s a c k   o f   t u r d s . 
+ O M G   3 d   g r i l l . 
+ S p y i n g   ! =   D a t a m i n e d 
+ A r e   y o u   t h i s   i g n o r a n t ? 
+ O h   n o ,   y o u r   f e e d i n g   t h e   a d s e n s e   e n g i n e .   Y o u   t o t a l l y   d o n ' t   d o   t h a t   a n y w a y   j u s t   b y   u s i n g   a n   I S P . 
+ Y o u   d o   b u t   w h a t   d o e s   i t   h a v e   t o   d o   w i t h   d a t a m i n i n g   a n d   s p y i n g ? 
+ X i a o m i   i s   l i t e r a l l y   c a l l e d   t h e   " A p p l e   o f   C h i n a "   t h o u g h . 
+ i t ' s   a n   a b s t r a c t   k i n d   o f   f e e l 
+ I s   t h e   n o t c h   n o t i c a b l e   w h e n   i n   u s e ? 
+ x z 1 c   a n d   k e y o n e 
+ n o r m i e 
+ I   l i t e r a l l y   h a d   t h e   g i r l   m a k e   t h a t   f a c e   w h e n   I   t o l d   h e r   I   h a v e   O n e P l u s ,   p e o p l e   i n   A m e r i c a   o n l y   k n o w   a b o u t   S a m s u n g   a n d   i P h o n e 
+ G a l a x y   s 5   s p o r t .   G o t   i t   n e w   f o u r   y e a r s   a g o ,   a n d   s i n c e   I   r o o t e d   a n d   d e b l o a t e d   i t ,   I ' v e   n e v e r   h a d   a   r e a s o n   t o   r e p l a c e   i t . 
+ I   c a n   s t i l l   i m p r e s s   c h i c k s   w i t h   m y   b u s t e d   a n d   m o d d e d   L G   G 4   t h a t   w o n ' t   e v e n   w a k e   u p   h a l f   t h e   t i m e   b e c a u s e   o f   t h e   f u c k e d   u p   c u s t o m   k e r n e l .   I f   y o u   n e e d   a n   i P h o n e   y o u ' r e   d o i n g   s o m e t h i n g   w r o n g . 
+ N i g g e r t r o n i c s   M o d e l   9 0 0 1 
+ I t ' s   j u s t   n o r m i e s .   I ' v e   s e e n   R e a v e s   o f   r e t a r d s   w a l k   u p   t o   m e   a n d   a s k   i f   m y   G O O G L E   P I X E L   i s   a n   i P h o n e . 
+ i s   t h i s   l i k e   a   h a r r y   p o t t e r   r e f e r e n c e   o r   s o m e t h i n g ? 
+ A t   o n e   p o i n t   i n   l i f e   I   t h o u g h t   g e t t i n g   a n   i P h o n e   a n d   t r y i n g   t o   b e   a   n o r m i e   w a s   t h e   r i g h t   t h i n g   t o   d o .   I   c a n   b l e n d   i n   a n d   c h a t   w i t h   t h e m   f i n e ,   b u t   I ' m   s t i l l   w e i r d   t o   t h e m .   G o o g l e   P i x e l   O G ,   A n d r o i d   P . 
+ A u t i s m i u m   M a x i m u s 
+ f u c k   o f f ,   I   h a v e   a   g f 
+ M y   g r a n d m o t h e r   c o m p l a i n e d   a b o u t   h e r   H T C   r u n n i n g   s l o w .   S h e   d i d n ' t   k n o w   y o u   c o u l d   c l o s e   a p p s ,   a n d   s h e   h a d   o v e r   1 0 0   t a b s   i n   C h r o m e .   I   g e t   s h e ' s   o l d ,   b u t   f u c k   m a n . 
+ K o d a k   E k t r a ,   c h e c k   o u t   t h i s   ' l e a t h e r '   a n d   ' m e t a l ' . 
+ T h e   o n l y   m e m e s   w e   n e e d   a r e   P e p e ,   S p i d e r - M a n ,   a n d   W o j a k . 
+ I s   S p i g e n   a   g o o d   c h o i c e ?   I ' v e   a l w a y s   d o n e   O t t e r b o x e s   a n d   I ' d   l i k e   s o m e   c h a n g e . 
+ Y o u   s p e r g s   h a v e   n o   f u c k i n g   i d e a   h o w   n o r m a l   h u m a n   i n t e r a c t i o n s   w o r k .   E v e n   t h e   f a g g i e s t   o f   n o r m a l f a g s   d o n ' t   c a r e   a s   m u c h   a b o u t   b r a n d s   a s   y o u   g u y s   d o .   T o   t h e m ,   y o u   j u s t   h a v e   a   d i f f e r e n t   p h o n e   t h a n   t h e y   d o .   Y o u r   " h o r r o r   s t o r i e s "   a b o u t   h o w   p e o p l e   j u d g e   t h e   b r a n d   o f   y o u r   p h o n e   l i t e r a l l y   n e v e r   h a p p e n   u n l e s s   y o u ' r e   i n   m i d d l e   s c h o o l   o r   h a n g   o u t   w i t h   a   b u n c h   o f   a s p i e s . 
+ I f   y o u ' r e   s o   i n s e c u r e   t h a t   y o u   w o r r y   a b o u t   w h a t   o t h e r   p e o p l e   t h i n k   o f   y o u r   p h o n e ,   y o u   m i g h t   a s   w e l l   j u s t   g e t   a n   i P h o n e   t o   u s e   i n   p u b l i c . 
+ Y o u   o v e r e s t i m a t e   t h e   i n t e l l i g e n c e   o f   n o r m i e s . 
+ y o u   l e a r n   t o   l a u g h   i t   o f f   a n d   s a y   " y e a h   y o u ' r e   r i g h t   i t   d o e s   k i n d a   l o o k   l i k e   t h a t " 
+ i f   y o u   c a n ' t   e v e n   d o   t h a t   i n   y e a r   1 2   t h e n   y o u ' r e   s t i l l   a   s p e r g 
+ T h a t   i s n ' t   t h e   p o i n t ,   I   g e t   t h a t   i t   l o o k s   l i k e   a n   i P h o n e ,   b u t   t h a t   m o n g r e l   w a s   t o o   d e n s e   t o   u n d e r s t a n d   G o o g l e   w a s n ' t   j u s t   a   s e a r c h   e n g i n e . 
+ 2 5 6 g b   i P h o n e   8   b u t   I ' l l   p r o b a b l y   t r a d e   i t   i n   S e p t e m b e r   f o r   t h e   n e w   j o i n t   I   j u s t   h a v e n ' t   d e c i d e d   o n   O L E D   o r   L C D 
+ A n d   y o u   h a v e   a   s m a l l t a l k   o p e n e r . 
+ P e o p l e   w i t h   j o b s   d o n t   c a r e   a b o u t   b r a n d s ,   a n d   y o u   s h o u l d n t   c a r e   a b o u t   p e o p l e   w i t h o u t   j o b s . 
+ c h e c k e d   
+ b a s e d   s t e v e - p o s t e r 
+ i P h o n e   e c k s 
+ n i c e   h i s s 
+ W h i c h   o n e ?   T h e   o n e   I   o r d e r e d   f r o m   C h i n a   o r   t h e   S 8   I   c h o s e   f o r   m y   w o r k   p h o n e   w h e n   t h e y   l e t   m e   p i c k   f r o m   t h e   V e r i z o n   s t o r e ? 
+ O h   I ' m   j u s t   a   s e c u r i t y   r e s e a r c h e r . 
+ r e e e e e e e e e e e e e e e e e e e e 
+ H a h a ,   a s   i f   p e o p l e   t a l k   t o   m e ,   g e t   t h a t   s h i t   o u t   o f   h e r e . 
+ I   t a l k e d   a b o u t   t h i s   w i t h   m y   s i s t e r   a n d   s o m e   o f   h e r   f r i e n d s .   T h e y   s a i d   t h a t   i f   t h e y ' r e   t e x t i n g   a   g u y   a n d   h e   d o e s n ' t   h a v e   i m e s s a g e ,   t h e y   w o r r y   a b o u t   i f   h e ' s   t o o   p o o r   t o   a f f o r d   a   s m a r t   p h o n e .   A l s o   t h e y   d o   l o o k   d o w n   o n   a n d r o i d   p h o n e s   i n   g e n e r a l   f o r   w h a t e v e r   r e a s o n 
+ t h a t   1 0 0 %   h a p p e n e d . 
+ S e r i o u s l y   d u d e   e v e r y   p e r s o n   I   m e e t   a t   m y   l o c a l   c o l l e g e   h a s   a   c r a c k e d   u p   i P h o n e   d e s p i t e   b e i n g   i n   a   t h i c k   O t t e r B o x   c a s e   l i k e   g o d   d a m n   W T F   u   d o i n   b r u h 
+ s e a r c h   " g r e e n   b u b b l e s   a n d r o i d "   o n   g o o g l e 
+ h o w   h a r d   i s   i t   t o   s a y   y o u   d o n ' t   l i k e   i p h o n e s   r e t a r d ? 
+ I ' m   n o t   s u r e . 
+ G i v e   m e   y o u r   n u m b e r   a n d   I ' l l   t e l l   y o u   a f t e r   I   l o o k   i t   u p . 
+ I t   u n f o r t u n a t e l y   d i d .   T h e y ' r e   s h a l l o w   c o l l e g e   g i r l s   w i t h   n o   t e c h   k n o w l e d g e   t o   s p e a k   o f ,   w h y   i s   t h a t   h a r d   t o   b e l i e v e ? 
+ i   k n o w   a b o u t   t h a t 
+ d a m n .   K n o w   s o m e   g i r l s   w i t h   i p h o n e s ,   b u t   t h e y   d o n t   c a r e   a b o u t   t h e   b u b b l e   c o l o r   j e e z . . . 
+ B ( 
+ I ' m   r o c k i n g   t h e   s 8   r i g h t   n o w ,   t h i n k i n g   o f   b u y i n g   t h e   n e w   i P h o n e . 
+ I   l i k e   t h e   s 8   b u t   I   w o u l d   l i k e   i t   m o r e   w i t h   y o u r   n u m b e r   i n   i t 
+ A r e   y o u   a s k i n g   m e   O P ,   o r   a r e   y o u   a s k i n g   h o w   I ' d   r e s p o n d   i f   a   c u t e   g i r l   a s k e d   m e ? 
+ I f   y o u ' r e   a s k i n g   m e ,   G a l a x y   J 7   S k y   P r o .   I t   c o s t   m e   $ 5 0 .   I t   d o e s   e v e r y t h i n g   I   n e e d   a   s m a r t   p h o n e   t o   d o   ( a n d   m o r e ) .   I   c a n   d a m a g e   i t   a n d   n o t   g i v e   a   s h i t   l i k e   I   w o u l d   o v e r   a   $ 3 0 0 - $ 5 0 0   p h o n e .   A n d   I ' l l   j u s t   e n d   u p   u p g r a d i n g   e v e r y   1 - 2 y r s   a n y w a y . 
+ I f   a   c u t e   g i r l   a s k e d   m e ,   I ' d   j u s t   t e l l   h e r   " I   d o n ' t   k n o w ,   h a v e   a   n i c e   d a y " .   W h a t e v e r   i t   t a k e s   t o   g e t   h e r   o u t   o f   m y   f a c e   t h e   q u i c k e s t .   I   j u s t   w a n t   t o   b e   l e f t   a l o n e   w h i l e   I   f i x   l i f e   s h i t   r i g h t   n o w .   I t ' s   a   m o o t   q u e s t i o n   a n y w a y ,   a   c u t e   g i r l   w o u l d   n e v e r   s h o w   i n t e r e s t   i n   m e . 
+ I t ' s   t h e   b e s t   p h o n e   I ' v e   e v e r   o w n e d .   I ' m   g e t t i n g   a   c l a s s i c   i n   t h e   m a i l   o n   t u e s d a y   a n d   I   h o p e   i t ' s   j u s t   a s   c o m f y   i f   n o t   m o r e 
+ n o t   a   s i n g l e   p e r s o n   h a s   a s k e d   y o u   t h a t 
+ I ' v e   n e v e r   h e a r d   o f   a n y o n e   w i t h   t h a t   p h o n e .   I s   i t   a n y   g o o d ?   I   l o v e   t h e   d e s i g n . 
+ h t t p s : / / w w w . y o u t u b e . c o m / w a t c h ? v = r u 5 
+ B l a c k b e r r y .   N e e d s   a   n e w   b a t t e r y .   C a n ' t   e v e n   g e t   a   f u l l   1 0   h o u r s   i n   s l e e p   m o d e .   T h e   f u c k . 
+ C a n   I   s m e l l   y o u r   a r m p i t . . . 
+ S r y ,   H U A W E I   b o t   n e t . 
+ Y o u  r e   a   p u s s y   s o   w e   b o t h   k n o w   t h a t  l l   n o t   b e   h a p p e n i n g   b u t   l u c k i l y   n o b o d y   i n   r e a l   l i f e   a c t s   l i k e   t h i s . 
+ G o   b a c k . 
+ L i t e r a l l y   n o   o n e   a s k s   t h i s   y o u   a u t i s t 
+ S o m e   s h i t t y   t r a c f o n e 
+ I t ' s   p o v e r t y ,   g i r l f r i e n d 
+ A   b l o w i e ? 
+ *   L a t e r   a t   o n e   o f   o u r   r e s p e c t i v e   d o r m i t o r i e s   * 
+ Y e a h   s u r e ,   h e r e   i t   i s 
+ * O p e n s   t h e   l a p t o p * 
+ I t   s a y s   r i g h t   t h e r e ,   r i g h t   o n   t h e   c r o t c h   o f   m y   p a n t s 
+ L e m m e   f i x   t h a t   f o r   y o u 
+ * U n z i p s   p a n t s * 
+ s h a n t y ,   i s   t h a t   y o u ? 
+ H e y ,   t h a t ' s   n o t   v e r y   n i c e .   I   h a v e   a   l e a r n i n g   d i s a b i l i t y   a n d   I   d o n ' t   t y p e   l i k e   a   g a y   r e t a r d . 
+ N o b o d y   c a r e s   a b o u t   y o u r   p e r s o n a l   l i f e ,   p e o p l e   w i l l   c a l l   y o u   w h a t e v e r   i n s u l t s   y o u   t h e   m o s t   f a g g i o 
+ s 9   b a b e 
+ L O G   S t y l o   3 .   W o r k s ,   c h e a p ,   s t y l u s   f i t s   i n   m y   p e n i s   f o r   s a f e   k e e p i n g . 
+ d a m m i t 
+ G o o d   t h i n g   I   j u s t   s e t   m y   a n d r o i d   p h o n e   u p   t o   s e n d   b l u e   b u b b l e s .   S t a c y   w i l l   b e   b a m b o o z l e d . 
+ x i a o m i   m i   m i x   t w o   s 
+ s a m s u n g   s 7 
+ A   N o k i a   6 0 8 5 .   N o   G o o g l e   o r   A p p l e   b o t n e t 
+ I t   c a n   b e   h i d e d   i n   t h e   s e t t i n g s ,   w h i c h   g o e s   w e l l   w i t h   t h e   A M O L E D   p a n e l   b e c a u s e   o f   t h e   b l a c k e r   b l a c k .   I   h a v e   a   P 2 0   P r o . 
+ I   h a t e   g e t t i n g   a s k e d   t h i s   q u e s t i o n . 
+ A m   I   t h e   o n l y   o n e   t o   b e   s u r p r i s e d   b y   t h i s ? 
+ r e d m i   n o t e   4 
+ g o n n a   b u y   m i   m a x   3   s o o n . 
+ I   d o n ' t   g e t   i t 
+ W h y   I   h a v e   a n   i P h o n e   S E   m ' l a d y . 
+ S t i l l   r o c k i n g   a   G a l a x y   N o t e   3 . 
+ S t i l l   f u c k e n   w e r k s . 
+ I ' m   g o n n a   c r y   l i k e   a   b a b y   w h e n   i t   d i e s ,   s u g g e s t   a   c h e a p   r e p l a c e m e n t   / g / 
+ I t ' s   a   S o n y   X p e r i a   X Z 1   C o m p a c t .   I   l i k e   m y   p h o n e s   t h e   s a m e   I   l i k e   m y   g i r l s ,   l i t t l e 
+ P a t r i c i a n   t a s t e ,   I   h a d   o n e   o f   t h o s e   b e f o r e   I   m o v e d   o n   t o   t h e   p i x e l   w h e n   i t   c a m e   o u t .   I   s t i l l   k e e p   i t   a r o u n d   a s   a   s p a r e ,   j u s t   i n   c a s e   I   t h r o w   m y   p i x e l   a t   a   w a l l   o r   s o m e   s h i t . 
+ H u a w e i   p 2 0   p r o   i t s   r e a l l y   g o o d .   T h e   b a t t e r y   i s   g r e a t ,   t h e   c a m r a   i s   a m a z i n g   6 g b   o f   r a m   a n d   a   g r e a t   p r o c e s s o r .   Y e a h   e m u i   i s   a n n o y i n g   b u t   i   d o w n l o a d e d   a   s k i n   a n d   i t s   n o t   t h a t   b a d 
+ W h y ,   i t ' s   m y   i P h o n e   5 S !   I t ' s   s t i l l   r o c k i n g   a f t e r   5   y e a r s   a n d   i t   e v e n   s t i l l   r e c e i v e s   u p d a t e s   f r o m   A p p l e ?   
+ W h a t ?   N o ,   I   d o n ' t   n e e d   a   n e w e r   p h o n e .   I   c a n ' t   a f f o r d   o n e ,   a c t u a l l y . 
+ W - W h e r e   a r e   y o u   g o i n g ?   W h y   a r e   y o u   g i g g l i n g ? 
+ S - S t a c y ? 
+ w h a t   t h e   f u c k   i s   w r o n g   w i t h   y o u ? 
+ D o   y o u   g u y s   t h i n k   c u s t o m   p h o n e   i s   t h e   w a y   t o   g o ?   h t t p : / / w w w . h a t c h m f g . c o m 
+ S a m e ,   a c t u a l l y   d o w n g r a d e d   f r o m   a   m u c h   n e w e r   p h o n e   a n d   i t ' s   m e n t a l   w i t h   h o w   m u c h   u s e l e s s   b u l l s h i t   c a n   a   d e v i c e   p r o v i d e   t o   y o u r   e y e s .   
+ S a d   i t ' s   i m p o s s i b l e   t o   l i v e   w i t h o u t   a   p h o n e   n u m b e r   n o w d a y s .   S h i t   i s   m a d e   t o   b e   a   p o i s o n . 
+ i f   y o u r e   n o t   b a i t i n g   a c t u a l l y   k y s 
+ i   h a v e   b e e n   u s i n g   i p h o n e s   f o r   5   y e a r s   a n d   > s t i l l   n o   g f 
+ h o l d i n g   i t   w r o n g 
+ I p h o n e   x 
+ . . . a n d   t h a t   i s   w h a t   i t s   l i k e   b e i n g   a   W i n d o w s   p h o n e   m a s t e r   r a c e 
+ K y s   i n s t e a d   f a g e t . 
+ - >   Y e s .   ( l i e ) 
+ i m a g e   b u y i n g   a   s p e c i f i c   b r a n d   o f   p h o n e s   b e c a u s e   y o u   t h i n k   w o m e n   w i l l   l i k e   y o u   f o r   i t . 
+ i m a g i n e   b e i n g   s u c h   a   f u c k i n g   l o s e r . 
+ h o l y   s h i t .   s a g e   b t w . 
+ I   s t i l l   h a v e   o n e ,   I   j u s t   u s e   i t   a s   a   c a m e r a   n o w . 
+ W h e r e   a r e   t h e   e n g i n e e r s   t h a t   d e s i g n e d   t h i s   t h i n g ? 
+ I   h o p e   t h e y   a r e   d e s i g n i n g   a   s u c c e s s o r . 
+ G o d   y o u ' r e   r e t a r d e d . 
+ s o m e t i m e s   i   a m a z e   m y s e l f   w i t h   m y   s o c i a l   i n e p t i t u d e 
+ o n l y   f a u l t s   i   c a n   g i v e   t h e   6 p   i s   i t s   b a t t e r y   a n d   l o w   l i g h t   i m a g e   q u a l i t y ,   e v e r y t h i n g   e l s e   i s   p r a c t i c a l l y   f l a g s h i p   i n   m y   o p i n i o n 
+ g a l a x y   s 8 
+ F u c k   o f f   t h i r d   w o r l d e r 
+ S o n y   p h o n e ,   c o s t s   m o r e   t h a n   y o u r   6 ,   s w e a t y . 
+ i P h o n e   8   p l u s . 
+ I t ' s   b o r i n g ,   b u t   a t   l e a s t   t h e   c h i n k s   d o n ' t   s p y   o n   m y   s h i t p o s t s . 
+ b e s t   a n d r o i d   s m a r t p h o n e   o n   t h e   m a r k e t   r i g h t   n o w 
+ h t t p s : / / w w w . y o u t u b e . c o m / w a t c h ? v = b b M 
+   
+ Y o u   t a l k   l i k e   i f   a p p l e   d o n ' t   s p y   t h e i r   c o s t u m e r s   t o o ,   h o m e w e v e r ,   t h e   t r u t h   a b o u t   i s   t h a t   e v e r y   s m a r t p h o n e   c o m p a n y   s p y   y o u ,   o r   t h e   g o v e r m e n t   t h r o u g h t   t h e i r   p r o d u c t s . 
+ f u c k   a l l   y a l l   b i t c h   a s s   n i g g a   i   h o p   a l l   y a l l   n i g g a s   d i e 
+ i   h a v e   n o   p r o b l e m   w i t h   t r u m p   o r   g e r m a n y   s p y i n g   o n   m y   s t u f f .   i   j u s t   d o n t   w a n t   t o   s l e e p   n e x t   t o   a   c h i n e s e   b o t n e t   d e v i c e . 
+ W h y ,   w h a t   w o u l d   C h i n a   d o   w i t h   t h a t   i n f o   t h a t ' s   m o r e   m a l i c i o u s   t h a n   w h a t   y o u r   o w n   g o v e r n m e n t   c o u l d   d o ? 
+ g o   o v e r   m y   b u s i n e s s   c o n t a c t s ,   c u r r e n t   p r o j e c t s ,   g o v e r n m e n t   c o n t r a c t s . . . 
+ S o u n d s   l i k e   y o u ' r e   t o o   i m p o r t a n t   f o r   / g / 
+ Y e p . 
+ S a m s u n g   s 5 
+ B e c a u s e   e x t e n d e d   b a t t e r y   c a s e .   
+ I t   w e i g h s   2 . 5   p o u n d s   a n d   I   u s e   i t   j u s t   f i n e   5   d a y s   i n t o   t h e   w o o d s   o n   a   h i k e   o r   o t h e r   e v e n t   w h i c h   w o u l d   h a v e   m e   a w a y   f r o m   a   n o r m a l   p h o n e   c h a r g e r .   
+ C o o l . 
+ I t ' s   u s u a l l y   a   v a r i a t i o n   o f   t h i s . 
+ T h e   i p h o n e   8 .   I   w a s   g o i n g   t o   g e t   t h e   X   b u t   d e c i d e d   t o   n o t   b l o w   t h a t   m u c h   m o n e y .   C a n ' t   w a i t   f o r   t h e   n e x t   o n e   t o   c o m e   o u t .   S o ,   y o u r   i n t o   p h o n e s ?   W h a t   a r e   y o u   u s i n g ? 
+ G S 7 ,   l e s s   t h a n   h a p p y   a t   t h e   s l o w   d o w n   a n d   b l o a t   f r o m   s a m s u n g   a f t e r   t h e   8 . 0   u p d a t e .   I ' d   a s k   w h y   i r s   s o   f u c k i n g   h a r d   t o   m a k e   a   d e v i c e   w i t h   a   l i g h t w e i g h t   o s   b u t   " D A   F E T U R E Z "   t h a t   n o   o n e   i n   t h e i r   r i g h t   m i n d   u s e s .   " I n s e r t   c a n c e r   k n o w n   a s   B i g s b y   h e r e "   T h a n k f u l l y   I   d o n ' t   h a v e   t h a t   d a m n   t h i n g   a n d   w i l l   l i k e l y   l o o k   a t   a   n o n   s a m s u n g   f o r   m y   n e x t   d e v i c e .   A m   a l s o   r a t h e r   i r r i t a t e d   t h a t   e v e n   A n d r o i d   i s   m a k i n g   t h e i r   o w n   o v e r l a y   w i t h   t h e   P i x l e   2   s e r i e s .   
+ I   j u s t   w a n t   s t o c k   a n d r o i d .   
+ A n y   i d e a s   o n   n e x t   d e v i c e ?   O r   w h a t   I   c o u l d   d r o p   i n   a s   a   R O M   t o   g e t   j u s t   s t o c k   a n d r o i d   w i t h o u t   l o s i n g   f u n c t i o n a l i t y .   M y   d e v i c e   s h o u l d n t   s l o w   t h a t   b a d l y   a f t e r   g a r d l y   2   y e a r s . 
+ I t s   a   3 D S   s n a p p e d   i n   h a l f 
+ C o r d e d   p h o n e   B i t c h   y o u   w i l l   l o v e   m y   C o r d e d   p h o n e   h t t p s : / / y o u t u . b e / j e t R 5 d J k _ S U 
+ T h e   C h a d   X i a o m i 
+ w o u l d   y o u   l i k e   t o   s e e   t h e   3 d   s c r e e n ? 
+ T h e y   t h r o w   t h e i r   p h o n e s   a r o u n d   b e c a u s e   d a d d y   a n d   m o m m y   p a y   f o r   i t . 
+ . . . L u m i a   6 4 0 . 
+ U h m .   D - d o   y o u   w a n t   t o   m - m a y b e   g e t   a n   i c e   c r e a m ? 
+ L g   X   p o w e r   2 . 
+ W h a t   i s   t h a t ?   A r e   y o u   a f r a i d   t h a t   y o u r   2 0 0 0   m a h   i p h o n e   c o u l d   b a r e l y   r u n   f o r   4   a c t i v e   h o u r s   w h i l e   m y   m a s t o d o n   4 5 0 0   m a h   c a n   s u r f   f o r   d a y s ? 
+ I   t h o u g h t   s o   S t a c y ,   n o w   m o v e   o u t t a   m a y   w a y   I   h a v e   t o   p o s t   i n   g e e   f a s t . 
+ I   u n d e r s t a n d   w h a t   h e ' s   g e t t i n g   a t .   I f   y o u   h a v e   a   p h o n e   a n d   a r e   u n d e r   t h e   a g e   o f   2 5   t h e r e s   a   s o c i a l   e x p e c t a t i o n   t h a t   y o u   r e s p o n d   t o   p e o p l e . 
+ i d   t a k e   o u t   m y   p i x e l   2   a n d   s h o w   i t   t o   h e r 
+ G a l a x y   s 4   m i n i 
+ I t   s t i l l   w o r k s   g r e a t 
+ s p o t t e d   t h e   b o o m e r 
+ * u n z i p s   s a m s u n g * 
+ O t h e r   t h a n   t h e   s t u p i d   m e m e   h e   p o s t e d   h e   i s   r i g h t   t h o u g h . 
+ D i s a b l e   t h a t   s h i t   a n d   i n s t a l l   F i r e f o x   f o c u s 
+ L u k e   S m i t h   a s   f u c k 
+ I t ' s   a   N e x u s   5 .   B u t   s o o n   I ' l l   b e   g e t t i n g   t h e   G N U / L i b r e m   5   y o u   s e e ,   i t ' s   a   p h o n e   t h a t   r e s p e c t s   y o u r   f r e e d o m   a n d   p r i v a c . . . w h e r e   a r e   y o u   r u n n i n g ? 
+ I   r e a l l y   l i k e   i t   w h e n   I  m   a s k e d   w h a t   p h o n e   I   h a v e   t o   t h e   p o i n t   t h a t   I   t r y   t o   m a k e   t h e   l o g o   a s   v i s i b l e   a s   p o s s i b l e   s o   t h a t   a s   m a n y   p e o p l e   s e e   i t   a n d   a s k   m e .   B u t   I   s t i l l   d o n  t   g e t   a s k e d   a s   m u c h   a s   I  d   l i k e   a n d   I   h a v e   t o   r e s o r t   t o   t e l l i n g   p e o p l e   a b o u t   m y   p h o n e   u n a s k e d .   B t w   I   h a v e   a   M o t o   Z 
+ m o t o   z 2   f o r c e 
+ X i a o m i   n o t e   4   m t k 
+ J 3   c a u s e   i ' m   a   p o o r   n i g g e r . 
+ E v e r y   t i m e .   A   f e w   g i r l s   i n   m y   u n i   g r o u p   h a v e   i p h o n e s   a n d   a l l   o f   t h e i r   s c r e e n s   a r e   c r a c k e d .   I   d o n ' t   u n d e r s t a n d   w h a t   t h e   f u c k   t h e y ' r e   d o i n g   w i t h   t h e m . 
+ w a t c h   o u t ,   i n   t h i s   h e a t   y o u r   f a g b o o k   i s   g o i n g   t o   o v e r h e a t   a n y   s e c o n d . 
+ b a s e d 
+ I f   y o u   i g n o r e d   y o u r   r a g i n g   p e r s e c u t i o n   c o m p l e x ,   y o u   w o u l d   s e e   t h a t   n o b o d y   g i v e s   a   s h i t   i f   y o u   w a l k   a r o u n d   w i t h   y o u r   f l i p   p h o n e   o r   e v e n   w o r s e ,   t h a t   y o u   d o n ' t   h a v e   a   p h o n e   b u t   y o u   h a v e   t o   l e t   e v e r y o n e   k n o w   b e c a u s e   y o u ' r e   t h e   v e g a n s   o f   p h o n e   o w n e r s . 
+ K e k   s a m e   h e r e .   I ' v e   h a d   p h o n e s   f o r   o v e r   2   y e a r s   a n d   n e v e r   c r a c k e d   t h e m ,   I   w o n d e r   h o w   t h e y   d o   i t . 
+ G e t t i n g   s h i t   f a c e d   d r u n k   e v e r y   t w o   n i g h t s   a n d   g e t t i n g   r a i l e d   i n   t h e   b a t h r o o m   s t a l l   o f   s o m e   E D M   n i g h t c l u b . 
+ -   t .   a   E u r o p e a n   n o r m i e 
+ I   l o v e   s t e r e o t y p e   c o n f i r m a t i o n . 
+ B e c a u s e   G o o g l e   m a d e   s u r e   t h a t   t h e   p i x e l   1   l o o k   a s   m u c h   l i k e   a n   i P h o n e   a s   p o s s i b l e 
+ I   f a i l   t o   s e e   a   p r o b l e m . 
+ I   f u c k i n g   l o v e   m y   p i x e l   X L   a n d   I ' m   m a d   t h e y   r u i n e d   t h e   2   a n d   i n e v i t a b l y   t h e   3 
+ T h e   2   i s   g r e a t ,   y o u   c u c k . 
+ P o s t e d   f r o m   m y   p i x e l   2   X L 
+ N i c e   c o n v e r s a t i o n   s t a r t e r .   M y   e y e s   a r e   u p   h e r e . 
+ A m   I   s u p p o s e d   t o   w a n t   t o   b e   a b l e   t o   i m p r e s s   s o m e   b r a i n l e t   r o a s t i e ? 
+ A s k e d   n o   g i r l   e v e r 
+ + 1   c u t e   g i r l 
+ f u c k   o f f   c u n t 
+ - 1 
+ a   m o t o   g 6 ,   i   d o n t   c a r e   a b o u t   m y   c a m e r a   s o   i t s   t h e   p e r f e c t   p h o n e 
+ F u c k   y o u ,   t o e   t h u m b e d   b i t c h ! 
+ G i v e   m e   y o u r   p h o n e   a n d   w a l l e t 
+ H u a w e i   m a t e   1 0   p r o 
+ t h i s 
+ t h r o w   t h a t   s h i t   a w a y   a n o n   a n d   g e t   a   r e a l   p h o n e   l i k e   t h e   r e s t   o f   u s 
+ / c s g / 
+ R e d m i   N o t e   4 
+ S 7   E d g e   w i t h   L i n e a g e O S 
+ l e a v e 
+ i   u t i l i z e   a   r u g g e d   p h o n e   b c   i m   e x   a r m y . 
+ B a s e d   a n d   r e d p i l l e d .   9 5 0 X L   h e r e . 
+ T h e n   w h y   d o   y o u   s t i l l   n e e d   a   r u g g e d   p h o n e ?   I n   c a s e   s o m e   f i r e w o r k s   g o   o f f ? 
+ N e v e r   h a d   a   p h o n e ,   b u t   I   h a v e   a   n e x u s   7   t a b l e t . 
+ D o n ' t   l e t   t h e   d o o r   h i t   y o u   o n   t h e   w a y   o u t   y o u   f u c k i n g   t h o t 
+ b e c a u s e   y o u   g e t   u s e d   t o   t h i n g s   a n d   i f   i t   g e t s   d r o p p e d   y o u   d o n ' t   w a n t   t o   r i s k   b r e a k i n g   i t 
+ e n j o y   y o u r   2 h   s c r e e n   t i m e 
+ N i g g a   j u s t   d o n ' t   p i c k   u p   t h e n 
+ G o   b a c k   t o   Ue d d i t   t h e n   k y s 
+ I   l o v e   t h i n g s   t h a t   a r e   d e s i g n e d   f o r   o l d   p e o p l e 
+ I   m e a n ,   s h e ' s   r i g h t .   T h e   P i x e l   i s   j u s t   a   s h i t   w a n n a   b e   i P h o n e   c o p y   f r o m   G o o g l e 
+ M y   s 5   l a s t s   t w o   d a y s   w i t h o u t   a n   e x t e n d e d   b a t t e r y .   S t i l l   r e a l l y   g o o d   s i n c e   I   c o m e   h o m e   e v e r y   d a y   a n y w a y . 
+ p i c   r e l a t e d 
+ I   o n l y   u s e   p h o n e s   t h a t   ( d e l i b e r a t e l y )   f a i l   t h e i r   k i c k s t a r t e r   a n d   n e v e r   g e t   m a d e . 
+ i t ' s   a   c e l l   p h o n e 
+ K e k e r i n o 
+ Y o u   a   w i z a r d ? 
+ I   s e e   y o u   a r e   t h e   a g g r e s s i v e   k i n d   o f   a u t i s t 
+ A r e   A m e r i c a n s   e v e n   p e o p l e   t h o u g h ? 
+ T h i s   l o o k s   u n i r o n i c a l l y   w e l l   d e s i g n e d   f o r   t h e   t a r g e t   d e m o g r a p h i c . 
+ * q u i c k l y   p u t s   m y   p h o n e   t o   a   p o c k e t * 
+ W h y   d o   y o u   a s k ? 
+ W h a t   i s   t h e r e   c u r i o u s   a b o u t   w h a t   p h o n e   I   u s e ?   I   d o n ' t   k n o w   y o u   n o r   d o   y o u   k n o w   m e . 
+ T h i s   i s   v e r y   s u s p i c i o u s .   W h a t ' s   y o u r   n a m e   y o u   s a i d ? 
+ Y o u r   f u l l   n a m e   p l e a s e 
+ B e c a u s e   y o u   a s k   m e   s o m e t h i n g   c o m p l e t e l y   u n r e l a t e d   t o   w h a t   p e o p l e   u s u a l l y   s t a r t s   a   c o n v e r s a t i o n 
+ W h o   a r e   y o u   w o r k i n g   w i t h ? 
+ i s   i t   F B I ? 
+ I s   i t   C I A ? ? 
+ I S   I T   N S A ? ? ? 
+ A   F U C K I N G   I N T E R P O L ? 
+ A R E   Y O U   W I T H   C H I N E S E ? ? ? ? 
+ W H A T   D O   Y O U   W A N T   F R O M   M E ! ? 
+ W H O   T H E   F U C K   A R E   Y O U ! ! ? 
+ I   u s e   t h e   s a m e 
+ l o l ,   s o   n a i l e d   i t . 
+ l m a o ,   y o u   j u s t   d e s c r i b e d   t h e   w h o l e   s e a s o n . 
+ O h   t h i s   t h i n g ?   I t s   o n e   o f   t h o s e   c a n d y   f i l l e d   s e e - t h r o u g h   p l a s t i c   p h o n e s . 
+ I   d o n ' t   h a v e   a   r e a l   p h o n e ,   c u z   o f   t h e   y ' k n o w . . .   B o t n e t . 
+ T h e   f i r e   p h o n e !   I t ' s   t h e   l a t e s t   a   g r e a t e s t   i n   s m a r t p h o n e   t e c h n o l o g y 
+ I n   w h a t   h e l l h o l e   d o   y o u   l i v e   i n   f o r   p e o p l e   t o   c a r e   w h a t   p h o n e   y o u   u s e ? 
+ L G   G 3 ,   i t ' s   t h e   p e a k   o f   p h o n e   t e c h ,   i t   h a s   a l l   t h e   f e a t u r e s   w i t h   n o   d r a w b a c k s 
+ I t   w a s   s o   g o o d ,   m y   g f   o f   t w o   y e a r s   a s k e d   f o r   o n e ,   s o   w e   b o t h   s h a r e   a c c e s o r i e s ,   a l w a y s   h a v e   s p a r e   b a t t e r i e s   w i t h   u s 
+ N o w ,   e x c u s e   m e ,   I ' m   r u n n i n g   l a t e   t o   m y   d a t e 
+ H a s   a n y o n e   e v e r   a c t u a l l y   s e e n   s o m e o n e   w i t h   o n e   o f   t h e s e   t h i n g s ? 
+ t h i s ?   y e a h   a l l   t h e   o t h e r   p h o n e s   i   h a d   b e f o r e   A N D   a f t e r   i t ,   h a d   d i e d   v e r y   q u i c k l y . 
+ * k n o c k s   o n   s c r e e n * 
+ t h e y   d o n ' t   m a k e   e m   l i k e   t h e y   u s e d   t o   ; ^ ) 
+ d o   y o u   k n o w   w h a t   s m a l l   t a l k   i s ? 
+ i s   t h a t   a   s e r v i c e   p r o v i d e r ? 
+ I   d i d ,   t w i c e ,   o n   t h e   b u s .   I   s a i d   h e l l o   t o   h i m ,   a s k e d   h i m   h o w   h i s   p h o n e   i s   t h e s e   d a y s ,   a n d   n e x t   t i m e   I   s a w   h i m   I   r e c o g n i s e d   h i m   a n d   a s k e d   w h e t h e r   h e  s   t h e   s a m e   g u y . 
+ r e d p i l l e d   a n d   b a s e d   b o o m e r 
+ I s   t h e   v 2 0   c a m e r a   r e a l l y   t h a t   g o o d ?   I   r e m e m b e r   y o u   c a n   g e t   t h e m   f o r   3 0 0 $ o n   N e w e g g   a n d   I  m   w o n d e r i n g   i f   i t  s   a   g o o d   A l l   a r o u n d   p h o n e . 
+ O n e p l u s   3   w i t h   a   n i c e   r o m   a n d   m i c r o g 
+ i t ' s   t h e   n e w   i p h o n e 
+ i t   h a s   a   p h y s i c a l   k e y b o a r d   a n d   c o m e s   w i t h   a n d r o i d   n o w 
+ I t ' s   p o s s i b l e   t h a t   t h e   p h o n e   l a n d e d   i n   a   c a s e   o n l y   a f t e r   b e i n g   d r o p p e d   a n d   h a v i n g   i t ' s   s c r e e n   b r o k e n .   I ' v e   s e e n   i t   o n   t w o   s u c h   o c c a s i o n s ,   a n d   s t i l l   d o n ' t   u n d e r s t a n d   i t 
+ O h   f o r   f u c k s   s a k e .   I   h a v e   t h i s   e x a c t   c o n v e r s a t i o n   a l l   t h e   d a m n   t i m e . 
+ W h a t ' s   t h e   a n s w e r ?   W h y   n o t   j u s t   g e t   a   n i c e   S a m s u n g 
+ I   h a d   a   S a m s u n g ,   i t   d i e d ,   t h i s   w a s   t h e   b e s t   p h o n e   f o r   t h e   p r i c e   a t   t h e   t i m e . 
+ I   d o n ' t   h a v e   a   c e l l   p h o n e .   A r e   y o u   a w a r e   t h a t   a l l   c e l l   p h o n e s   a r e   d e s i g n e d   t o   g i v e   a w a y   y o u r   l o c a t i o n   e v e r y   t i m e   i t   c o n n e c t s   t o   a   t o w e r ,   t h u s   g i v i n g   y o u r   s e r v i c e   p r o v i d e r   a   c o n s t a n t   m a p   o f   w h e r e   y o u   a r e ?   I n   a d d i t i o n ,   t h e   m a j o r i t y   o f   c e l l   p h o n e s   a l s o   h a v e   b a c k   d o o r s   w h i c h   a l l o w   t h i r d   p a r t i e s   t o   l i s t e n   i n   o n   y o u r   c o n v e r s a t i o n s ? 
+ T h e   L G   G 4   i s   a   s t r a i g h t   u p g r a d e   t h o u g h ,   i s n ' t   i t ? 
+ h t t p s : / / b e e b o m . c o m / s a m s u n g - h a d - t h e - 
+ B l a c k b e r r y   p a s s p o r t   b a y b e e e e 
+ O h ,   i t ' s   j u s t   a   f l i p   p h o n e .   I   d o n ' t   h a v e   i n t e r n e t . 
+ i P h o n e   X   2 5 6   G B . 
+ A s   I ' v e   g o t   m o r e   i n t o   G N U / L i n u x   a n d   i t ' s   c o m m u n i t y ,   t h e   q u e s t i o n   o f   w h a t   i t   t a k e s   t o   g e t   n o r m i e s   t o   u s e   i t   h a s   b e e n   i n t e r e s t i n g   m e   m o r e   a n d   m o r e .   A s   I ' m   h o m e   f o r   t h e   s u m m e r ,   I   d e c i d e d   m y   1 6   y r   o l d   b r o t h e r   m i g h t   a c t u a l l y   m a k e   a   g o o d   t e s t   s u b j e c t   f o r   t h r o w i n g   h i m   i n t o   a   u s e r   f r i e n d l y   d i s t r o   a n d   s e e i n g   h o w   h e   d o e s .   H e ' s   a   t y p i c a l   g a y m e r ,   s p e n d s   a l l   d a y   v o i c e   c h a t t i n g   o n   d i s c o r d   o r   w h a t e v e r .   
+ I ' v e   n e v e r   u s e d   a   u s e r   f r i e n d l y   d i s t r o   m y s e l f   t h o u g h   u n l e s s   y o u   c o u n t   F e d o r a ,   a l t h o u g h   t h a t ' s   a s   I   u n d e r s t a n d   s t i l l   a   b i t   o f   a   s t e p   u p   f r o m   s o m e t h i n g   l i k e   M i n t ,   a n d   2 8   i s   a   b u g g y   p i e c e   o f   s h i t   r i g h t   n o w   a n y w a y .   W h a t   w o u l d   / g /   r e c o m m e n d   t o   t e s t   t h i s ,   b e s i d e s   G e n t o o ?   T h e r e ' s   o b v i o u s l y   U b u n t u ,   b u t   I ' d   l i k e   t o   a v o i d   t h e   p r e p a c k e d   b o t n e t   i f   p o s s i b l e   -   w o u l d   M i n t   o r   S U S E   b e   s o l i d   a l t e r n a t i v e s ,   o r   i s   U b u n t u   r e a l l y   t h e   o n l y   c h o i c e   f o r   n o r m i e s ? 
+ W h a t   I   r e a l l y   w a n n a   s e e   i s   j u s t   h o w   f a r   h e   c a n   g e t   d o i n g   h i s   r e g u l a r   b r o w s i n g   o n   a   G N U / L i n u x   s e t u p ,   b o o t i n g   b a c k   i n t o   w i n d o w s   w h e n e v e r   h e   w a n t s   t o   g a m e .   S u r e l y   h e   s h o u l d n ' t   e v e n   n e e d   t o   o p e n   t h e   t e r m i n a l   r i g h t ?   H o p e f u l l y   h e ' l l   d o   f i n e   w i t h   i t   a n d   c o n f i r m   m y   s u s p i c i o n s   t h a t   t h e   p r o b l e m   r e a l l y   i s   j u s t   p a c k a g i n g   o f   t h e   O S ,   r a t h e r   t h a n   a n y   d i f f i c u l t y   i n   t h e   O S   i t s e l f .   I f   h e   d o e s   s t r u g g l e   t h o u g h ,   I ' d   l i k e   t o   m a k e   n o t e s   o f   w h a t   e x a c t l y   c a u s e s   i t . 
+ S t o p   b e i n g   a n   a s s h o l e .   
+ T h a t ' s   w h a t ' s   w r o n g   w i t h   t h e   c o m m u n i t y   i n   t h e   f i r s t   p l a c e . 
+ T h i s   i s   a l l   c o n s e n s u a l   t h o u g h 
+ i f   y o u   p r e i n s t a l l   i t   a n d   s e t   i t   u p   n o r m i e s   w i l l   p r e t t y   h a p p i l y   u s e   a n y   o f   t h e   e a s i e r   d i s t r o s .   G i v e   h i m   X u b u n t u   1 8 . 0 4   L T S   a n d   o p t   o u t   o f   t h e   s p y w a r e   y o u r s e l f   b e f o r e   y o u   g i v e   i t   t o   h i m .   O r   j u s t   i n s t a l l   D e b i a n   s t a b l e   a n d   s e t   u p   t h e i r   a p t   a u t o - u p d a t e   t h i n g   ( w h i c h   I   t h i n k   i s   s u p p o s e d   t o   b e   o n   b y   d e f a u l t   c o m e   B u s t e r ) 
+ J u s t   t r y   i t   a n d   s e e   h o w   i t   w o r k s .   I   m i g h t   i n s t a l l   U b u n t u   f o r   m y   m o m   a n d   m y   g r a n d m a . 
+ I ' v e   b e e n   u s i n g   D e b i a n   t e s t i n g   m y s e l f   a n d   h o n e s t l y   I   f e e l   l i k e   i t ' d   b e   t o o   m u c h   t o   d e a l   w i t h .   I   c a n   g e t   b y   w i t h   i t   b u t   o n l y   b e c a u s e   I   a l r e a d y   h a d   a   c o u p l e   m o n t h s   o f   e x p e r i e n c e   w i t h   F e d o r a   b e f o r e   c o m i n g   t o   i t .   X b u n t u   i s   a   g o o d   i d e a   b u t   t h e   k e y   t o   X F C E   r e a l l y   i s   r i c i n g ,   a n d   m o s t   n o r m i e s   w o n ' t   b e   i n t e r e s t e d   i n   t h a t .   G N O M E   i s   p r o b a b l y   t h e   b e s t   c h o i c e . 
+ t h e y ' r e   a l l   b r o k e n   a n d / o r   s t u p i d   i n   o n e   w a y   o r   a n o t h e r ,   g o o d   l u c k   e v e n   h a v i n g   e v e r y t h i n g   w o r k i n g   a f t e r   i n i t i a l   i n s t a l l a t i o n   a n d   f i r s t   b a t c h   o f   u p d a t e s 
+ t .   a r c h t i l i n g w m i n c e l n e e t   w h o   h a s   t r i e d   a n d   t r i e d   c a r e f u l l y   p i c k i n g   t h e   m o s t   ' j u s t - w e r k s ' - d i s t r o s   o n   a   b u n c h   o f   n o r m i e u s e r   m a c h i n e s 
+ t h a t   s a i d ,   m i n t   ( c i n n a m o n )   o r   e l e m e n t a r y   ( p a n t h e o n )   M A Y B E ,   j u s t   b e c a u s e   i   h a v e n ' t   t r i e d   t h o s e   y e t 
+ i n s t a l l   g e n t o o 
+ w e l l   t h a t ' s   b e c a u s e   y o u ' r e   a p p r o a c h i n g   i t   l i k e   s o m e o n e   w h o   a c t u a l l y   d o e s   s h i t   t o   t h e   s y s t e m ,   l i k e   i n s t a l l i n g   p a c k a g e s   a n d   c o n f i g u r i n g   s e r v i c e s .   N o r m i e s   j u s t   o p e n   t h e   w e b   b r o w s e r .   T h e y   d o n ' t   g i v e   h a l f   a   r a t ' s   a s s   a b o u t   r u n n i n g   a   m a i n l i n e   k e r n e l   i n s t e a d   o f   a n   L T S   o n e .   Y o u   w a n t   s o m e t h i n g   t h a t   y o u   c a n   s e t   u p   o n c e   f o r   t h e m   a n d   t h a t   d o e s n ' t   c h a n g e   t h e r e a f t e r .   
+ X f c e   i s   i d e a ,   a n d   y o u   d o n ' t   r e a l l y   n e e d   t o   r i c e   i t   b e y o n d   r e m o v i n g   t h a t   " d o c k "   s h i t   t h a t   t h e   d e f a u l t   p a n e l   c o n f i g   d o e s .   M a y b e   a   n e w   w a l l p a p e r .   I t   l o o k s   k i n d a   d o w d y   t o   a   n o r m i e   b u t   t h e y   r e c o g n i z e   s h i t   i n s t a n t l y .   " O h ,   t h e r e ' s   a   t a s k b a r ,   i t ' s   j u s t   o n   t o p .   T h e r e ' s   a   s t a r t   m e n u ,   i t ' s   j u s t   c a l l e d   a p p l i c a t i o n s " .   S p e n d   3 0   s e c o n d s   s h o w i n g   i t   t o   t h e m   a n d   t h e y   g e t   i t ,   a n d   t h a t s   a l l   t h e y   c a r e   a b o u t ,   a n d   a l l   y o u   s h o u l d   c a r e   a b o u t .   
+ G N O M E   d o e s   a l l   t h a t   " r e i n v e n t i n g   t h e   U I   p a r a d i g m "   b u l l s h i t   a n d   t r i e s   t o   b e   d e l i b e r a t e l y   d i f f e r e n t .   A l s o   t h e y   c h a n g e   t h a t   s h i t   a   l o t .   I n   a   f e w   y e a r s   w h e n   y o u   u p g r a d e   t o   t h e   n e x t   d i s t r o   r e l e a s e ,   y o u   c a n   c o u n t   o n   X f c e   t o   l o o k   t h e   s a m e   a s   i t   d o e s   n o w .   R e m e m b e r   t h a t   t o   a   n o r m i e ,   a n y   c h a n g e   a t   a l l   i n   h o w   t h e i r   c o m p u t e r   w o r k s   o n c e   t h e y ' r e   u s e d   t o   i t   i s   a   h u g e   a n n o y a n c e . 
+ H u h ,   m a y b e   y o u ' r e   r i g h t .   T h i n k   I ' l l   g i v e   t h a t   a   t r y .   
+ W h a t   a b o u t   M i n t   v s   U b u n t u ,   t h e n ? 
+ j u s t   i n t r o d u c e   h i m   t o   t h e   t e r m i n a l   o r   a   t i l i n g w m   a n d   d o t f i l e s   i f   y o u   f o l l o w   t h e   " n o o b   f r i e n d l y   d e s k t o p   e n v i r o n m e n t "   a d v i c e ' s   h e ' s   n o t   g o n n a   s e e   t h e   p o i n t   o f   u s i n g   l i n u x ,   i t ' s   j u s t   g o n n a   b e   w i n d o w s   w i t h o u t   g a m e s   t o   h i m .   g i v e   h i m   a   n e w   c o n c e p t   t h a t   m i g h t   k e e p   h i m   i n t e r e s t e d .   D E ' s   a r e   n o t   i n t e r e s t i n g . 
+ I f   t h a t ' s   t r u e   t h e n   L i n u x   w i l l   n e v e r   h a v e   a n y   n o r m i e   a p p e a l .   T h a t ' s   w h a t   I ' m   t e s t i n g   f o r   h e r e . 
+ O f   t h e   t w o   I ' d   p i c k   U b u n t u .   B a s i c a l l y   b e c a u s e   I   t r u s t   C a n o n i c a l   t o   n o t   f u c k   u p   m o r e   t h a n   I   t r u s t   t h e   M i n t   p e o p l e .   Y o u r   n o r m i e   u s e r   o b v i o u s l y   w o n ' t   c a r e   a b o u t   M i n t ' s   s e c u r i t y   u p d a t e   p o l i c y ,   o r   t h e m   m a k i n g   a   f r a n k e n d e b i a n ,   o b v i o u s l y ,   b u t   y o u   d o ,   s i n c e   y o u ' l l   h a v e   t o   m a i n t a i n   i t .   A n d   I   r e c k o n   t h a t   M i n t   h a s   a   h i g h e r   c h a n c e   o f   b r e a k i n g   i n   s o m e   w a y   t h a t   y o u r   i n t e r v e n t i o n   w i l l   b e   n e e d e d   t o   f i x ,   c o m p a r e d   t o   U b u n t u   L T S . 
+ D a m n   i s   M i n t   r e a l l y   t h a t   s h i t ?   X b u n t u   i t   i s   t h e n .   I f   t h e r e   a r e   a n y   i n t e r e s t i n g   r e s u l t s   m a y b e   I ' l l   m a k e   a   f o l l o w   u p   t h r e a d . 
+ y o u   k n o w   w h a t   y o u   h a v e   t o   d o   i f   h e   d i s a g r e e s 
+ T h i s .   I   w a s   s t u c k   d u a l   b o o t i n g   a n d   g o i n g   b a c k   a n d   f o r t h   f o r   y e a r s   u n t i l   I   t r i e d   s t u f f   l i k e   o p e n b o x   a n d   i 3 . 
+ M I N T   M a t e   r o c k s . 
+ H a v e   i t   r u n n i n g   o n   t h r e e   l a p t o p s   a n d   t w o   d e s k t o p s ,   a   m i x   o f   c o n t e m p o r a r y   a n d   5   y e a r   o l d   h a r d w a r e . 
+ H a v e   b e e n   w r i t i n g   s o f t w a r e   o n   m y   o w n   m i c r o c o m p u t e r s   s i n c e   1 9 7 9 ,   a n d   p r o f e s s i o n a l l y   s i n c e   1 9 9 1 . 
+ I   w a n t   t o   m a k e   a n d   d o   t h i n g s   w i t h   m y   s y s t e m s   -   n o t   m a k e   t h e m   a   h o b b y   -   e v e n   t h o u g h   m y   c a p a b i l i t i e s   a f t e r   t h i r t y   y e a r s   o f   3 6 0   d e g r e e   e x p e r i e n c e   w i t h   c o m p u t i n g   d e v i c e s   a r e   f a r   b e y o n d   a n y t h i n g   r e q u i r e d   t o   b r i n g   e v e n   t h e   m o s t   d i f f i c u l t   " d i s t r o "   t o   h e e l . 
+ I f   a n y   o f   y o u   a r e   a c t u a l   p r o s ,   y o u   w i l l   h a v e   a l s o   l e a r n e d   t h a t   s t a b i l i t y   i s   f a r   m o r e   i m p o r t a n t   t h a n   " b e i n g   u p   t o   d a t e "   i n   p r o d u c t i o n   s y s t e m s . 
+ T L ;   D R :   T r y   M I N T   M a t e   f i r s t .   I t ' s   e a s y   t o   u s e   a n d   j u s t   g e t s   t h e   f u c k   o u t   t h e   w a y . 
+ I f   y o u   w a n t   t o   m a k e   f u c k i n g   a r o u n d   w i t h   c o m p u t e r s   ( v s .   d o i n g   s o m e t h i n g   w i t h   t h e m )   y o u r   h o b b y ,   b y   a l l   m e a n s   t r y   a   m e m e   d i s t r o   t h e   a u t i s t s   r e c o m m e n d . 
+ I n   t h e   1 7   s e r i e s   M I N T   r e l e a s e   t h i s   w h o l e   h o u s e   i s   r u n n i n g ,   n o t h i n g   h a s   e v e r   " b r o k e n   i n   s o m e   w a y   t h a t   m y   i n t e r v e n t i o n   w a s   n e e d e d   t o   f i x . " 
+ S o m e   t o u c h p a d   t w e a k i n g   w i t h   " s y n c l i e n t "   w a s   r e q u i r e d ,   u s i n g   a   s t a r t u p   s c r i p t ,   b u t   e v e r y t h i n g   e l s e   w a s   r e a s o n a b l e   b y   d e f a u l t . 
+ O n   t h e   l a p p y s ,   I   d i d n ' t   l i k e   t h e   b a t t e r y   t h r e s h o l d s ,   s o   I   f o u n d   t h e   c o n f i g   f i k e   f o r   t h e m   a n d   t w e a k e d   t h e   s e t t i n g s . 
+ B u t   a f t e r   s e t u p ,   n o t h i n g   b r e a k s .   I ' m   w o r r i e d   t h e   n e w   M I N T   r e l e a s e s   w i t h   T i m e   M a c h i n e   w i l l   s a c r i f i c e   s t a b i l i t y   f o r   a   f a s t e r   n o n - s e c u r i t y   u p d a t e   c y c l e . 
+ I   h a d   t o   g i v e   u p   M i n t ,   i t ' s   n o t   a   t e r r i b l e   O S   b u t   I ' v e   h a d   h e l l   g e t t i n g   i t   t o   k e e p   i t   f r o m   r e s e t t i n g   m y   s e t t i n g s   a n d   p r e f e r e n c e s ,   a n d   a c r o s s   t w o   l a p t o p s   m y   g i r l f r i e n d   a n d   I   u s e ,   i t ' s   a b i l i t y   t o   h o o k   i n t o   o t h e r   m o n i t o r s   a n d   g e t   b o t h   t h e   s o u n d   a n d   v i d e o   t o   w o r k   c o n s i s t e n t l y   w a s   i n f u r i a t i n g ,   a n d   c o n s i d e r i n g   t h a t ' s   s o m e t h i n g   w e   n e e d   t o   b e   a b l e   t o   d o   e v e r y   f e w   h o u r s ,   i t ' s   a   d e a l   b r e a k e r   f o r   u s .   P r o b a b l y   g o i n g   t o   g o   b a c k   f u r t h e r   u p   t h e   l i n e   t o   U b u n t u   o r   D e b i a n ,   w e   d o   b o t h   p r e f e r   M A T E   f o r   a   D E   t h o u g h ,   s o   w e ' l l   p r o b a b l y   s t i c k   w i t h   t h a t . 
+ I n   m y   e x p e r i e n c e   y o u   a r e   l y i n g . 
+ I n   M I N T   1 7 ,   N O T H I N G   w a s   e v e r   " r e s e t "   -   e v e n   c u t o m   c o n f i g s . 
+ N o t   e v e n   o n c e . 
+ Y o u   s i r   o r   m a d a m ,   a r e   a   s h a m e l e s s   s h i l l s t e r . 
+ I f   I   a m   a   s h i l l s t e r   y o u   a r e   a n   i d i o t ,   I ' m   u s i n g   1 9   n o t   1 7 . 
+ H o w   i s   U b u n t u   a   b o t n e t ? 
+ I   h a d   t r o u b l e   u n d e r s t a n d i n g   L i n u x   a u d i o   c o n t r o l   a t   f i r s t . 
+ T h e   r e d   p i l l   w a s   r e a l i z i n g : 
+ A f t e r   y o u   p l u g   i n   a   n e w   m o n i t o r ,   y o u   m u s t   c h e c k   a u d / v i d   s e t t i n g s ,   t h e n   o p e n   a n d   c l o s e   a c t i v e   A / V   a p p s . 
+ A u t o d e t e c t   l o g i c   a n d   s w i t c h i n g   l o g i c   a r e   d i f f e r e n t   t h a n   W i n d o w s   a n d   n o t   a l w a y s   w h a t   y o u ' d   e x p e c t . 
+ B u t   I   t h i n k   y o u ' r e   g o i n g   t o   h a v e   t h o s e   s a m e   i s s u e s   i n   a n y   D e b i a n   d e r i v a t i v e . 
+ N o .   I ' m   n o t   a n   i d i o t .   1 7   i s   w o r k i n g   f i n e   s o   t h e r e ' s   n o   n e e d   t o   f u c k   u p   a n   e n t i r e   h o u s e   f u l l   o f   m a c h i n e s   j u s t   t o   s e e   a   d i f f e r e n t   f u c k i n g   n u m b e r   o n   b o o t . 
+ G T F U . 
+ I   a m   a w a r e   y o u   h a v e   t o   h a v e   t h e   d i s p l a y   a n d   s o u n d   g u i s   o p e n   a n d   s w i t c h   i t   o v e r   m a n u a l l y   e a c h   t i m e ,   I   d o n ' t   h a v e   a n   i s s u e   d o i n g   t h a t ,   I   d o n ' t   e x p e c t   i t   t o   a u t o m a t i c a l l y   s w i t c h   o v e r   e i t h e r ,   h o w e v e r   h a l f   t h e   t i m e   i t   w o n ' t   r e c o g n i z e   t h e r e   i s   a n o t h e r   H D M I   s o u n d   o p t i o n   a v a i l a b l e   n o   m a t t e r   h o w   m a n y   t i m e s   I   r e m o v e   a n d   i n s e r t   t h e   p l u g . 
+ O k a y ,   1 7   w o r k s   g r e a t   f o r   y o u ,   f a n t a s t i c ,   h o p e   i t   s t a y s   t h a t   w a y   f o r e v e r .   I   w a s   r e f e r r i n g   t o   1 9 ,   w h i c h   i s   w h a t   w a s   i n s t a l l e d   o n   m y   m a c h i n e ,   w h e r e   I   a m   h a v i n g   t h e   i s s u e s   I   m e n t i o n e d .   Y o u   h a r p i n g   o n   a b o u t   h o w   1 7   w o r k s   g r e a t   f o r   y o u   a n d   c a l l i n g   m e   a   l i a r   f o r   e x p e r i e n c i n g   s o m e t h i n g   y o u   h a v e n ' t   e x p e r i e n c e d   i s   i d i o c y . 
+ I   a g r e e   w i t h   t h e   t e r m i n a l   b i t   1 0 0 %   b u t   I   t h i n k   l e t t i n g   h i m   g e t   c o m f o r t a b l e   i n   a   D E   f i r s t   i s   g o o d   w a y   t o   s t a r t   a s   t r a i n i n g   w h e e l s   o f   s o r t s . 
+ X u b u n t u   i s   t h e   b e s t   d i s t r o   f o r   a   w i n f a g   i   t h i n k ,   i t   j u s t   w o r k s   ( m o r e   t h a n   m i n t )   a n d   h e   w i l l   b e   a b l e   t o   p l a y   g a m e   a n d   u s e   d i s c o r d   o n   i t   l i k e   a   r e a l   n o r m i e . 
+ I   a p l o g i z e   f o r   t h e   m i s u n d e r s t a n d i n g . 
+ T h e r e   a r e   a   s h i t l o a d   o f   a n t i - M i n t   s h i l l s   h e r e ,   a n d   a l t h o u g h   I   s h o u l d n ' t   g i v e   a   f u c k ,   I ' d   h a t e   t o   s e e   a n o t h e r   n 0 0 b   a s k i n g   f o r   a d v i c e   ( O P )   g e t   s h i l l e d   i n t o   t r y i n g   s o m e   a s y m p t o t i c a l l y - i m p o s s i b l e - t o - m o r t a l 
+ W h a t   c a n   y o u   b u y   w i t h   $ 5 0 0   t o d a y   l o o k   a b s o l u t e l y   p i t i f u l   a n d   u n u s a b l e .   I   r e m e m b e r   b u y i n g   p e r f e c t l y   f u n c t i o n i n g   l a p t o p s   i n   t h e   p a s t   o n l y   a   f e w   h u n d r e d   b u c k s .   
+ W h a t   d o   y o u   t h i n k ,   / g / ? 
+ w a g e s   w e n t   u p   s o   n a t u r a l l y   p r i c e s   o f   a l l   g o o d s   w e n t   u p 
+ l o l 
+ P e o p l e ' s   s t a n d a r d s   h a v e   r i s e n 
+ F o r   l a p t o p s   I   c a n   c o n f i r m .   N o   t o d a y s   p l a s t i c   5 0 0 ¬   s h i t   b e a t s   m y   g u d   o l   a s p i r e   o f   2 0 1 1 .   C o s t e d   4 0 0   a n d   s t i l l   o u t p e r f o r m s   t h e   s a m e - p r i c e   s e g m e n t   o f   t o d a y . 
+ I n f l a t i o n 
+ Y e s   a n d   n o .   T h e   i s s u e   i s   t h a t   i n   t h e   p a s t ,   m o s t   o f   t h e   c o s t   o f   t h e   p r o d u c t   w a s   i n v e s t e d   i n   t h e   i n t e r n a l   c o m p o n e n t s   a t   t h e   e x p e n s e   o f   t h e   c a s e ,   s c r e e n ,   e t c . 
+ N o w a d a y s ,   c o m p a n i e s   r e a l i z e   t h a t   m o s t   c o n s u m e r s   d o n ' t   u n d e r s t a n d   o r   v a l u e   i n t e r n a l s   a s   l o n g   a s   t h e   p e r f o r m a n c e   i s   g e n e r a l l y   a c c e p t a b l e   f o r   n o r m a l   u s e   ( i e   f a c e b o o k ) .   S o   n o w   m o s t   o f   t h e   c o s t   i s   i n v e s t e d   i n   t h e   e x t e r n a l   c a s i n g   a n d   t h e   s c r e e n .   S o   m o d e r n   c o m p u t e r s   h a v e   m e t a l   c a s e s   a n d   n i c e   s c r e e n s ,   b u t   s h i t t y   i n t e r n a l s .   W h e r e a s   o l d e r   c o m p u t e r s   h a d   a b s o l u t e l y   g a r b a g e   p l a s t i c   c a s e s   a n d   s h i t t y   s c r e e n s   w i t h   l o w   r e s o l u t i o n s ,   b u t   r e l a t i v e l y   p o w e r f u l   i n t e r n a l s . 
+ S i m p l y   p u t ,   l o w   e n d   m a c h i n e s   a r e   t a r g e t e d   a t   a   c o m p l e t e l y   d i f f e r e n t   m a r k e t   n o w . 
+ T h i s .   A n d   n o w   p e o p l e   e x p e c t   l a p t o p s   t o   h a v e   8 +   h o u r s   o f   b a t t e r y   l i f e ,   w h i c h   i s   o n l y   p o s s i b l e   i f   t h e   s p e c s   a r e   l o w   b e c a u s e   b a t t e r y   t e c h   h a s n ' t   r e a l l y   a d v a n c e d   m u c h   b u t   w e   d o   h a v e   r e a l l y   e f f i c i e n t   l o w - p o w e r   c p u s   n o w . 
+ I   j u s t   f i n d   u s e d   c o m p u t e r   p a r t s   a n d   t h r o w   t o g e t h e r   w h a t   e v e r   a n d   r e s e l l .   M o s t l y   I   c a n   d o u b l e   i f   n o t   t r i p l e   m y   m o n e y . 
+   
+ I   a l s o   b u y   b u l k   H D D   a n d   P S U   w h e n   e v e r   I   f i n d   t h e m .   S S D   m a k e s   a l l   t h e   d i f f e r e n c e . 
+ M y   g f ' s   c o m p u t e r   c o s t e d   m e   $ 1 4 0 .   A l l   I   d i d   w a s   u p g r a d e   t h e   g p u   a n d   g o t   a n   S S D   o n   m y   f r i e n d s   o l d   t r a s h s   P C . 
+ Y o u   c a n   g e t   a   r e a l l y   n i c e   u s e d   b u s i n e s s   l a p t o p   f o r   t h a t   m u c h   o r   l e s s   o n   e b a y   o r   c r a i g s l i s t .   T h i n k P a d s   o r   E l i t e b o o k s   a r e   w h a t   I ' d   r e c o m m e n d . 
+ o k   r e a g a n 
+ h t t p s : / / p c p a r t p i c k e r . c o m / l i s t / r y L F 4 
+ 
